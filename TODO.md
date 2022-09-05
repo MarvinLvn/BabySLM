@@ -1,0 +1,3 @@
+- [x] Move to new git organization
+- [ ] Rewrite preprocessing tools after deleting the option phonemic words.
+- [ ] Run the models on the Marvin dataset.
