@@ -79,8 +79,7 @@ def phonemization(utterance: str) -> str:
     return BACKEND.phonemize([utterance], separator=SEPARATOR, strip=True)[0]
 
 def preprocess(utterance: str,
-                phonemize: bool=True,
-                tokenize_in_words: bool=True) -> str:
+                phonemize: bool=True) -> str:
     """
     Preprocess a given utterance by calling multiple functions.
 
