@@ -1,0 +1,20 @@
+name: provi
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.7.12
+  - nose
+  - numpy=1.19.2
+  - pip
+  - tqdm
+  - libgcc
+  - google-cloud-texttospeech
+  - libgcc
+  - pip:
+    - progressbar2
+    - matplotlib
+    - pylangacq
+    - transformers
+    - aiolimiter
