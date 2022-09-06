@@ -93,6 +93,10 @@ python ${FAIRSEQ_SCRIPTS}/train.py --fp16 $MODEL/data-bin \
       --max-tokens 163840 --update-freq 1 --max-update 100000 --patience 10
 ```
 
+### Train N-grams (phones)
+
+Work in progress (Yaya)
+
 # Speech-based language models
 
 Audio-based models are trained using [this git repository](https://github.com/MarvinLvn/CPC2/tree/minibatch_building).
