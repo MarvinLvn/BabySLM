@@ -27,7 +27,7 @@ If you evaluate a text-based language model, there should be as many lines as th
 If you evaluate an audio-based language model, there should be as many lines as there are word/nonwords for all the voices (2 voices for the dev set, 8 voices for the test set).
  
 
-# Evaluated text-based models
+# Evaluate text-based models
 
 ### Evaluate LSTM language models
 
