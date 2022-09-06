@@ -34,7 +34,7 @@ Work in progress (Marvin). Give some examples here
 
 # Getting started
 
-You'll probability want to start from there:
+You'll probably want to start from there:
 
 - [How to download the data? How to evaluate my own model?](docs/evaluation.md)
 
