@@ -2,3 +2,5 @@
 - [ ] Rewrite preprocessing tools after deleting the option phonemic words.
 - [ ] Run the models on the Marvin dataset.
 - [ ] Notice to marvin that `output_path` option was added to the script `split_train_val_test_lm.py`
+- [ ] Make all training files for all hours
+- [ ] Create a sh script for training all ngram models on all training sets
