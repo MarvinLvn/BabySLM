@@ -23,8 +23,8 @@ impacts-en-US-Wavenet-B -3.6343493461608887
 ```
 
 where:
-- the first column contain the filename of the stimuli consider
-- the second column contain the probability returned by the model.
+- the first column contains the filename of the stimuli considered
+- the second column contains the probability returned by the model.
 
 Please note that if you evaluate a text-based language model, there should be as many lines as there are word/nonwords for a single voice (let's say en-US-Wavenet-B if you consider the dev set).
 However, if you evaluate an audio-based language model, there should be as many lines as there are word/nonwords for all the voices (2 voices for the dev set, 8 voices for the test set).
