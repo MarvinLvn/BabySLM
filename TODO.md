@@ -1,3 +1,4 @@
 - [x] Move to new git organization
 - [ ] Rewrite preprocessing tools after deleting the option phonemic words.
 - [ ] Run the models on the Marvin dataset.
+- [ ] Notice to marvin that `output_path` option was added to the script `split_train_val_test_lm.py`

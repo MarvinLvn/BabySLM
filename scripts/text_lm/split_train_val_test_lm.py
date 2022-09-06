@@ -21,6 +21,8 @@ def main(argv):
                                                  'the train, dev, and test set.')
     parser.add_argument('--input_path', type=str, required=True,
                         help='Path to the input training set.')
+    parser.add_argument('--output_path', type=str, required=False,
+                        help='Path to where the output training set will be stored.')
     parser.add_argument('--val_prop', type=float, default=0.1,
                         help='Proportion of the validation set.')
     parser.add_argument('--test_prop', type=float, default=0,
@@ -33,7 +35,9 @@ def main(argv):
                         help='If activated, will not replace tabulation by <SEP>.')
     args = parser.parse_args(argv)
     args.input_path = Path(args.input_path)
-
+    if not args.output_path:
+        args.output_path = args.input_path
+    args.output_path = Path(args.output_path)
     # Not convenient for you user, but this way we ensure you don't mess up something!
     if args.input_path.stem not in ['phones', 'phones_with_space', 'sentences', 'sentences_bpe',
                                     'sentences_bpe_eos_bos']:
@@ -69,7 +73,7 @@ def main(argv):
             'test': data_test}
 
     for key, data in data.items():
-        output_file = args.input_path / f'{args.prefix}_{key}.txt'
+        output_file = args.output_path / f'{args.prefix}_{key}.txt'
         if len(data) != 0:
             with open(output_file, 'w') as fin:
                 for line in data:
