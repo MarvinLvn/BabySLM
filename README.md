@@ -1,6 +1,8 @@
 # Behavioral probing of language acquisition models at the phonetic, lexical and syntactic level
 
-![](docs/benchmarking_speech_acquisition_transp.png)
+<p align="center" width="100%">
+<img src="./docs/benchmarking_speech_acquisition_transp.png"> 
+</p>
 
 Welcome to this repository where you'll find all you need to evaluate your language acquisition model at:
 1) the phonetic level using a machine ABX discrimination task (audio-based models)
@@ -13,6 +15,9 @@ Tasks 2) and 3) are probability-based tasks: your model must return the probabil
 It's up to you to decide how you can extract a relevant probability from your model.
 
 # Which tasks are used to evaluate the model ?
+
+<details>
+<summary><b>(Click to expand)</b></summary>
 
 1) Phonetic evaluation, the machine sound ABX discrimination task:
    - The model receives three spoken triphones A=<em>**/bit/**</em>, B=<em>**/bat/**</em>, X=<em>**/bit/**</em>.
@@ -33,6 +38,7 @@ Work in progress (Marvin). Give some examples here
    - The model is considered to be right if P_A > P_B 
     
 Work in progress (Marvin). Give some examples here    
+</details>
 
 # Getting started
 
