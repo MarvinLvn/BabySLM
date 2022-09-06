@@ -1,5 +1,7 @@
 # Behavioral probing of language acquisition models at the phonetic, lexical and syntactic level
 
+![](docs/benchmarking_speech_acquisition_transp.png)
+
 Welcome to this repository where you'll find all you need to evaluate your language acquisition model at:
 1) the phonetic level using a machine ABX discrimination task (audio-based models)
 2) the lexical level using a spot-the-word task (audio-based or phone-based models)
