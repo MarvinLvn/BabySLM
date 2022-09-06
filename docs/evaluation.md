@@ -2,7 +2,7 @@
 
 Work in progress (Marvin)
 
-# Evaluate your own models
+# Evaluate your own model
 
 To evaluate your own model, you can use `scripts/compute_lexical.py` or `scripts/compute_syntactic.py`. 
 The script expects the following parameters:
