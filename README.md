@@ -13,20 +13,20 @@ It's up to you to decide how you can extract a relevant probability from your mo
 # Which tasks are used to evaluate the model ?
 
 1) Phonetic evaluation, the machine sound ABX discrimination task:
-   - The model receives three spoken triphones A=/bit/, B=/bat/, X=/bit/.
+   - The model receives three spoken triphones A=<em>**/bit/**</em>, B=<em>**/bat/**</em>, X=<em>**/bit/**</em>.
    - Representations are returned by the model: R_A, R_B, and R_X.
    - The model is considered to be right if d(R_A, R_X) < d(R_B,R_X) as A and B represent the same triphone
    - Can be computed within-speakers (A,B and X are pronunced by the same speaker), across-speakers (A,B pronounced by the same speaker but X pronunced by a different speaker), on read-speech or spontaneous-speech.
     
 2) Lexical evaluation, spot-the-word task:
-   - The model receives two stimuli A='rabbit' and B='raddit' that form a pair of (word, nonword)
+   - The model receives two stimuli A=<em>**rabbit**</em> and B=<em>**raddit**</em> that form a pair of (word, nonword)
    - The probability associated to each stimuli is computed: P_A and P_B
    - The model is considered to be right if P_A > P_B 
     
 Work in progress (Marvin). Give some examples here    
 
 3) Syntactic evaluation, spot-the-grammatical-sentence task:
-   - The model receives two stimuli A='The nice prince' and B='The prince nice' that form a pair of (grammatical sentence, ungrammatical sentence)
+   - The model receives two stimuli A=<em>**The nice prince**</em> and B=<em>**The prince nice**</em> that form a pair of (grammatical sentence, ungrammatical sentence)
    - The probability associated to each stimuli is computed: P_A and P_B
    - The model is considered to be right if P_A > P_B 
     
