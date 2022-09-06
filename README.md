@@ -48,7 +48,7 @@ You'll probably want to start from there:
 
 But if you want to go further:
 
-- [How to evaluate models from the paper?](docs/evaluation.md)
+- [How to evaluate models used in the paper?](docs/evaluation.md)
 - [How to retrain the models used in the paper?](docs/training.md)
 - [How to prepare the training sets used in the paper?](docs/data.md)
 - [How to recreate the lexical evaluation?](https://github.com/MarvinLvn/ChildDirectedLexicalTest)
