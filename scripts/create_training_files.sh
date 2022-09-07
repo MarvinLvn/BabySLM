@@ -24,13 +24,23 @@ case $1 in
     -h) usage; shift ;;
 esac
 shift
-echo "======================================================"
+echo "======================== ARGUMENTS ========================="
 echo "input folder: $input_path";
 echo "output folder: $output_path";
 echo "validation proportion: $val_prop";
 echo "test proportion: $test_prop";
 mkdir -p $output_path
+
 echo "================= MAKING THE TRAINING FILES ================"
-# for filename in $train_files/*.one_sentence_per_line; do # train_files*.one_sentence_per_line
-#     $kenlm_folder/build/bin/lmplz --discount_fallback -o $ngram_size < $filename > $out_dirname/${filename##*/}.arpa
-# done
+training_limit=31
+for hours in $input_path/*; do
+    for training_set in $( ls $hours | sort -n ); do
+        if [ "$training_set" -gt "$training_limit" ]; then
+            continue
+        fi
+        out_training_path=$output_path/"$(basename "$hours")"/$training_set
+        mkdir -p $out_training_path
+        echo "Making $out_training_path"
+        python scripts/text_lm/split_train_val_test_lm.py --input_path $hours/$training_set/phones/ --val_prop $val_prop --test_prop $test_prop --output_path $out_training_path --prefix ngrams
+    done
+done
