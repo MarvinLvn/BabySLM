@@ -107,7 +107,7 @@ class NGramLanguageModel:
         - out_filename: str
             The filename of the model.
         """
-        LOGGER.info(f"Saving the model to {out_dirname} as {out_filename}...")
+        LOGGER.info(f"Saving the model to {out_dirname} as {out_filename}.pkl...")
         # back to standard python dictionnary
         self.ngram_counter = {ngram : dict(counts) for ngram, counts \
                                 in self.ngram_counter.items()}
@@ -116,7 +116,7 @@ class NGramLanguageModel:
         out_file = out_directory / f"{out_filename}.pkl"
         with open(out_file, "wb") as model_to_save:
             pickle.dump(self, model_to_save)
-        LOGGER.info("Modle saved.")
+        LOGGER.info("Model saved.")
     
     def load_model(self, path: str) -> None:
         """
@@ -136,7 +136,7 @@ class NGramLanguageModel:
             self.ngram_counter = loaded_model.ngram_counter
             self.denominator_smoother = loaded_model.denominator_smoother
             del loaded_model
-        LOGGER.info("Modele loaded.")
+        LOGGER.info("Model loaded.")
 
     def ngram_probability(self, ngram: Ngram) -> float:
         """
