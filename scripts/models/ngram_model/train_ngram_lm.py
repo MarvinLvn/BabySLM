@@ -1,14 +1,14 @@
-from ngram_lm import NGramLanguageModel
+from ngram_lm import NGramLM, UnigramLM
 from argparse import ArgumentParser
 
 
 def main(args) -> None:
     """This function will train and save the ngram language model."""
-    ngram_lm = NGramLanguageModel(pad_utterances=args.pad_utterances,
-                                    ngram_size=args.ngram_size,
-                                    smooth=args.smooth)
-    ngram_lm.estimate(args.train_file)
-    ngram_lm.save_model(args.out_directory, args.out_filename)
+    lm = NGramLM(pad_utterances=args.pad_utterances,
+                    ngram_size=args.ngram_size,
+                    smooth=args.smooth) if args.ngram_size > 1 else UnigramLM(args.smooth)
+    lm.estimate(args.train_file)
+    lm.save(args.out_directory, args.out_filename)
 
 if __name__ == "__main__" :
     parser = ArgumentParser()

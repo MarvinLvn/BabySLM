@@ -1,6 +1,6 @@
 #!/bin/bash
 
-programname=$training_files_creator
+programname=$trainer_on_all_files
 function usage {
     echo "usage: $programname [-h] [-i train_files_folder] [-n ngram_size] [-o output_path]"
     echo "  -h  display help."
@@ -27,8 +27,6 @@ echo "input folder: $train_files_folder";
 echo "ngram size: $ngram_size";
 echo "output folder: $output_path";
 mkdir -p $output_path
-
-# conda activate provi
 
 echo "================= RUNNING THE TRAININGS ================"
 for hours in $train_files_folder/*; do

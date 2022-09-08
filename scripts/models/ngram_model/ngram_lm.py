@@ -1,6 +1,7 @@
 """This module implements a ngram language model."""
 
 # import standard python modules
+from abc import ABC, abstractmethod
 import random
 from typing import Union, List, Tuple, Iterator
 import pickle
@@ -19,31 +20,11 @@ logging.basicConfig(level=logging.DEBUG)
 
 Ngram = Tuple[str]
 
-class NGramLanguageModel:
-    """
-    This class implements a ngram language model with
-    add-delta smoothing.
-
-    Parameters
-    ----------
-    - pad_utterance: bool
-        Whether or not pad utterances by adding fake tokens\
-        in the beginning and ending of each utterance.
-    - ngram_size: int
-        The size of the ngrams.
-    - smooth: flot, int
-        The value for smoothing. Default=1e-3
-    """
-    def __init__(self,
-                    pad_utterances: bool=True,
-                    ngram_size: int=3,
-                    smooth: Union[float, int]=1e-3):
-        self.pad_utterances = pad_utterances
-        self.ngram_size = ngram_size
+class BaseNgramLM(ABC):
+    def __init__(self, smooth: Union[float, int]=1e-3):
         self.smooth = smooth
-        self.ngram_counter = defaultdict(lambda: defaultdict(int))
         self.denominator_smoother = None
-
+    
     def get_ngrams(self, splitted_utterance: List[str]) -> Iterator[Ngram] :
         """
         Return the ngrams of a given utterance.
@@ -58,7 +39,7 @@ class NGramLanguageModel:
         - list:
             List of ngrams extracted from the utterance.
         """
-        if self.pad_utterances :
+        if self.pad_utterances and self.ngram_size > 1:
             # add '<' for start token padding and '>' for\
             # end token padding
             splitted_utterance = (["<"] * (self.ngram_size - 1)) \
@@ -71,6 +52,7 @@ class NGramLanguageModel:
         # if the length of the utterance is smaller than the ngram size.
         return zip(*iterables)
 
+    @abstractmethod
     def estimate(self, train_file: str) -> None:
         """
         Estimate the language model from a raw text file.
@@ -81,21 +63,10 @@ class NGramLanguageModel:
             The path of the file containing train sentences\
             with one sentence per line.
         """
-        LOGGER.info("Training the model...")
-        with open(train_file, mode="r", encoding="utf-8") as sentences_file:
-            vocabulary = set()
-            for utterance in sentences_file :
-                utterance = utterance.strip().split(" ")
-                for ngram in self.get_ngrams(utterance):
-                    *context_tokens, next_token = ngram
-                    self.ngram_counter[tuple(context_tokens)][next_token] += 1
-                    vocabulary.add(next_token)
-            # will be used to smooth the probability distribution
-            # by adding the 'smooth' value to each token in the vocabulary
-            self.denominator_smoother = len(vocabulary) * self.smooth
-        LOGGER.info("Model trained.")
+        pass
 
-    def save_model(self, out_dirname: str, out_filename: str) -> None:
+    @abstractmethod
+    def save(self, out_dirname: str, out_filename: str):
         """
         Save the estimated parameters and the hyperparameters of\
         the language model in a JSON file.
@@ -107,18 +78,9 @@ class NGramLanguageModel:
         - out_filename: str
             The filename of the model.
         """
-        LOGGER.info(f"Saving the model to {out_dirname} as {out_filename}.pkl...")
-        # back to standard python dictionnary
-        self.ngram_counter = {ngram : dict(counts) for ngram, counts \
-                                in self.ngram_counter.items()}
-        out_directory = Path(out_dirname)
-        out_directory.mkdir(parents=True, exist_ok=True)
-        out_file = out_directory / f"{out_filename}.pkl"
-        with open(out_file, "wb") as model_to_save:
-            pickle.dump(self, model_to_save)
-        LOGGER.info("Model saved.")
+        pass
     
-    def load_model(self, path: str) -> None:
+    def load(self, path: str) -> None:
         """
         Load a stored language model in a pickle file.
 
@@ -133,12 +95,13 @@ class NGramLanguageModel:
             self.pad_utterances = loaded_model.pad_utterances
             self.ngram_size = loaded_model.ngram_size
             self.smooth = loaded_model.smooth
-            self.ngram_counter = loaded_model.ngram_counter
+            self.parameters = loaded_model.parameters
             self.denominator_smoother = loaded_model.denominator_smoother
             del loaded_model
         LOGGER.info("Model loaded.")
-
-    def ngram_probability(self, ngram: Ngram) -> float:
+    
+    @abstractmethod
+    def ngram_probability(self, ngram: Ngram):
         """
         Assign a probability of a given ngram by using\
         the estimated counts of the ngram language model.
@@ -153,18 +116,8 @@ class NGramLanguageModel:
         - float:
             The assigned probability to the given ngram.
         """
-        *left_context, next_token = ngram
-        left_context = tuple(left_context)
-        left_context_seen = self.ngram_counter.get(left_context, False)
-        if not left_context_seen:
-            # unknown left_context, return smoothed probability, that is a
-            # very small probability instead of returning 0 probability
-            return self.smooth / self.denominator_smoother
-        denominator = sum(left_context_seen.values()) + self.denominator_smoother
-        # add also the smooth to the numerator, so all sums up to one.
-        numerator = self.ngram_counter[left_context].get(next_token, 0.0) + self.smooth
-        return numerator / denominator
-
+        pass
+    
     def assign_logprob(self, utterance: str) -> float:
         """
         This function will assign a normalised log proabability
@@ -188,3 +141,94 @@ class NGramLanguageModel:
         ngram_values = np.array([self.ngram_probability(ngram)
                                     for ngram in ngrams_of_the_utterance])
         return np.sum(np.log(ngram_values)) / len(ngrams_of_the_utterance)
+
+
+class NGramLM(BaseNgramLM):
+    def __init__(self,
+                    pad_utterances: bool=True,
+                    ngram_size: int=3,
+                    smooth: Union[float, int]=1e-3):
+        
+        super().__init__(smooth)
+        self.pad_utterances = pad_utterances,
+        self.ngram_size = ngram_size
+        self.parameters = defaultdict(lambda: defaultdict(int))
+
+    def estimate(self, train_file: str) -> None:
+        LOGGER.info("Training the model...")
+        with open(train_file, mode="r", encoding="utf-8") as sentences_file:
+            vocabulary = set()
+            for utterance in sentences_file :
+                utterance = utterance.strip().split(" ")
+                for ngram in super().get_ngrams(utterance):
+                    *context_tokens, next_token = ngram
+                    self.parameters[tuple(context_tokens)][next_token] += 1
+                    vocabulary.add(next_token)
+            # will be used to smooth the probability distribution
+            # by adding the 'smooth' value to each token in the vocabulary
+            self.denominator_smoother = len(vocabulary) * self.smooth
+        LOGGER.info("Model trained.")
+
+
+    def save(self, out_dirname: str, out_filename: str) -> None:
+        LOGGER.info(f"Saving the model to {out_dirname} as {out_filename}.pkl...")
+        # back to standard python dictionnary
+        self.parameters = {ngram : dict(counts) for ngram, counts \
+                                in self.parameters.items()}
+        out_directory = Path(out_dirname)
+        out_directory.mkdir(parents=True, exist_ok=True)
+        out_file = out_directory / f"{out_filename}.pkl"
+        with open(out_file, "wb") as model_to_save:
+            pickle.dump(self, model_to_save)
+        LOGGER.info("Model saved.")
+
+    def ngram_probability(self, ngram: Ngram) -> float:
+        *left_context, next_token = ngram
+        left_context = tuple(left_context)
+        left_context_seen = self.parameters.get(left_context, False)
+        if not left_context_seen:
+            # unknown left_context, return smoothed probability, that is a
+            # very small probability instead of returning 0 probability
+            return self.smooth / self.denominator_smoother
+        denominator = sum(left_context_seen.values()) + self.denominator_smoother
+        # add also the smooth to the numerator, so all sums up to one.
+        numerator = self.parameters[left_context].get(next_token, 0.0) + self.smooth
+        return numerator / denominator
+
+class UnigramLM(BaseNgramLM):
+    def __init__(self, smooth: Union[float, int]=1e-3):
+        super().__init__(smooth)
+        self.ngram_size = 1
+        self.pad_utterances = False
+        self.parameters = defaultdict(int)
+    
+    def estimate(self, train_file: str) -> None:
+        LOGGER.info("Training the model...")
+        with open(train_file, mode="r", encoding="utf-8") as sentences_file:
+            for utterance in sentences_file :
+                utterance = utterance.strip().split(" ")
+                for ngram in super().get_ngrams(utterance):
+                    self.parameters[ngram] += 1
+            self.denominator_smoother = len(self.parameters) * self.smooth
+        LOGGER.info("Model trained.")
+    
+    def save(self, out_dirname: str, out_filename: str):
+        LOGGER.info(f"Saving the model to {out_dirname} as {out_filename}.pkl...")
+        # back to standard python dictionnary
+        self.parameters = dict(self.parameters)
+        out_directory = Path(out_dirname)
+        out_directory.mkdir(parents=True, exist_ok=True)
+        out_file = out_directory / f"{out_filename}.pkl"
+        with open(out_file, "wb") as model_to_save:
+            pickle.dump(self, model_to_save)
+        LOGGER.info("Model saved.")
+
+    def ngram_probability(self, ngram: Ngram) -> float:
+        if ngram not in self.parameters:
+            # unknown left_context, return smoothed probability, that is a
+            # very small probability instead of returning 0 probability
+            return self.smooth / self.denominator_smoother
+        denominator = sum(self.parameters.values()) + self.denominator_smoother
+        # add also the smooth to the numerator, so all sums up to one.
+        numerator = self.parameters[ngram] + self.smooth
+        return numerator / denominator
