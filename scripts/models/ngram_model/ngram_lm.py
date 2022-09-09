@@ -29,10 +29,15 @@ class BaseNgramLM(ABC):
     - smooth: float, int
         Value for smoothing the probability distributions\
         for dealing with unknown units.
+    - pad_utterances: bool
+        Whether add or not fake tokens at the begenning and ending of the utterance.
+    - parameters: defaultdict
+        Will contain the ngrams counts.
     """
     def __init__(self, smooth: Union[float, int]=1e-3):
-        self.smooth = smooth
-        self.denominator_smoother = None
+        self.smooth: Union[float, int] = smooth
+        self.pad_utterances: bool = None
+        self.parameters: defaultdict = None
     
     def get_ngrams(self, splitted_utterance: List[str]) -> Iterator[Ngram] :
         """
