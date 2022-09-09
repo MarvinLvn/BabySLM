@@ -21,6 +21,15 @@ logging.basicConfig(level=logging.DEBUG)
 Ngram = Tuple[str]
 
 class BaseNgramLM(ABC):
+    """
+    An abstract class for ngram language model.
+
+    Parameters
+    ---------
+    - smooth: float, int
+        Value for smoothing the probability distributions\
+        for dealing with unknown units.
+    """
     def __init__(self, smooth: Union[float, int]=1e-3):
         self.smooth = smooth
         self.denominator_smoother = None
@@ -144,6 +153,7 @@ class BaseNgramLM(ABC):
 
 
 class NGramLM(BaseNgramLM):
+    """A class that implements a ngram language", with n > 1."""
     def __init__(self,
                     pad_utterances: bool=True,
                     ngram_size: int=3,
