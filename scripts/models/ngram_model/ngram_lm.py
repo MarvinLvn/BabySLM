@@ -148,6 +148,7 @@ class BaseNgramLM(ABC):
             The log probability of the utterance.
         """
         ngrams_of_the_utterance = list(self.get_ngrams(utterance.split(" ")))
+        print(ngrams_of_the_utterance)
         if not ngrams_of_the_utterance:
             # This condition can holds only in the case pad_utterances\
             # is set to False.
@@ -211,6 +212,7 @@ class NGramLM(BaseNgramLM):
         return numerator / denominator
 
 class UnigramLM(BaseNgramLM):
+    """Implements unigram language model."""
     def __init__(self, smooth: Union[float, int]=1e-3):
         super().__init__(smooth)
         self.ngram_size = 1
@@ -240,8 +242,8 @@ class UnigramLM(BaseNgramLM):
 
     def ngram_probability(self, ngram: Ngram) -> float:
         if ngram not in self.parameters:
-            # unknown left_context, return smoothed probability, that is a
-            # very small probability instead of returning 0 probability
+            # unknown ngram, return smoothed probability: a very small\
+            # probability instead of returning 0 probability
             return self.smooth / self.denominator_smoother
         denominator = sum(self.parameters.values()) + self.denominator_smoother
         # add also the smooth to the numerator, so all sums up to one.

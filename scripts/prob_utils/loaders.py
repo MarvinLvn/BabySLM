@@ -1,5 +1,8 @@
+import sys
+sys.path.append('.')
+
 import pandas as pd
-from providence.phonemize import phonemize_sentence, load_phonemizers
+from scripts.providence.phonemize import phonemize_sentence, load_phonemizers
 from paraphone.workspace import Workspace
 from pathlib import Path
 import os
