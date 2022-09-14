@@ -1,15 +1,19 @@
 - [x] Move to new git organization
-- [ ] Rewrite preprocessing tools after deleting the option phonemic words.
-- [ ] Run the models on the Marvin dataset.
+- [x] Train the models on the Marvin dataset.
 - [ ] Notice to marvin that `output_path` option was added to the script `split_train_val_test_lm.py`
 - [x] Make all training files for all hours
-- [ ] Create a sh script for training all ngram models on all training sets
+- [x] Create a sh script for training all ngram models on all training sets
+- [ ] Notify that you have added the `output_path` in the scripts for computing the probabilities
 - [ ] Enable to import modules without sys.append. Correct the modules `scripts.models.ngram_model.compute_prob_ngram_lm.py` and `scripts.providence.phonemize`
-- [ ]
+- [x] sh script for computting probabilities on the syntactic task for all the lms.
 
-Scripts to compute ngram_lm probabilites on gold.csv file:
-`python scripts/models/ngram_model/compute_prob_ngram_lm.py --input_path data/model_evaluation/ --model_path trained_models/ngrams/unigrams/0.5h/00.pkl --model_type unigram --mode test --text --remove_word_spaces`
 
-This will out a `.txt` file. Use this file as argument to this script for computing the accuracy on syntactic task:
+sh script for training the language models on all the datasets
+`sh scripts/models/ngram_model/train_all_ngram_models.sh -i data/training_data -n 2 -o trained_models/ngrams/bigrams`
 
-`python scripts/metrics/compute_syntactic.py -o results -g data/model_evaluation/ -p trained_models/ngrams/unigrams/0.5h/data/tmp/model_evaluation/ -k test --is_text`
+sh script for computing probabilities for all models:
+`sh scripts/models/ngram_model/compute_prob_for_all_ngram_models.sh -i data/model_evaluation/syntactic/ -o results/unigrams -m trained_models/ngrams/unigrams/ -t unigram -e test`
+
+sh script for computing all the scores for all the model on the syntactic task
+
+`sh scripts/models/ngram_model/compute_scores_for_all_models.sh -o results/unigrams/ -g data/model_evaluation/ -p results/unigrams/ -k test`

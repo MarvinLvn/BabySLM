@@ -148,7 +148,6 @@ class BaseNgramLM(ABC):
             The log probability of the utterance.
         """
         ngrams_of_the_utterance = list(self.get_ngrams(utterance.split(" ")))
-        print(ngrams_of_the_utterance)
         if not ngrams_of_the_utterance:
             # This condition can holds only in the case pad_utterances\
             # is set to False.
