@@ -37,7 +37,7 @@ def main(argv):
             onset, offset = stem.split('_')[-2:]
             onset, offset = float(onset), float(offset)
             # delete files whose dur. is 0
-            if onset == offset:
+            if (offset - onset) / 1000 > 0.5:
                 subpath = wav_file.relative_to(args.audio)
                 txt_file = args.annotation / subpath.with_suffix('.txt')
                 os.remove(wav_file)
