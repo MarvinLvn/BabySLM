@@ -12,8 +12,8 @@ sh script for training the language models on all the datasets
 `sh scripts/models/ngram_model/train_all_ngram_models.sh -i data/training_data -n 2 -o trained_models/ngrams/bigrams`
 
 sh script for computing probabilities for all models:
-`sh scripts/models/ngram_model/compute_prob_for_all_ngram_models.sh -i data/model_evaluation/syntactic/ -o results/unigrams -m trained_models/ngrams/unigrams/ -t unigram -e test`
+`sh scripts/models/ngram_model/compute_prob_for_all_ngram_models.sh -i data/model_evaluation/lexical/ -o results/trigrams/ -m trained_models/ngrams/trigrams/ -t ngram -e dev`
 
 sh script for computing all the scores for all the model on the syntactic task
 
-`sh scripts/models/ngram_model/compute_scores_for_all_models.sh -o results/unigrams/ -g data/model_evaluation/ -p results/unigrams/ -k test`
+`sh scripts/models/ngram_model/compute_scores_for_all_models.sh -g data/model_evaluation/ -p results/unigrams/ -k dev -t lexical`

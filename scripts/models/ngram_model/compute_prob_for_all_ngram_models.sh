@@ -33,7 +33,7 @@ echo "The type of the ngram models: $model_type";
 echo "Evaluating them on: $mode";
 echo "The outputs will be stored here: $output_path";
 
-echo "================= RUNNING THE TRAININGS ================"
+echo "================= COMPUTE THE PROBABILITIES ================"
 for hours in $models_path/*; do
     for model in $hours/*.pkl; do
         model_name=$(basename -- "$model")
