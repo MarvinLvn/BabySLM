@@ -1,59 +1,72 @@
-"""This module will compute accuracies on the different tasks."""
+# """This module will compute accuracies on the different tasks."""
 
 
 import sys
 sys.path.append('.')
+from scripts.prob_utils.probability_extractors import TextNgramProbExtractor
 from scripts.prob_utils.loaders import load_stimuli_text
 from pathlib import Path
 from argparse import ArgumentParser
-from typing import Iterable, Tuple
-from time import time
-from typing import Iterable
-from ngram_lm import UnigramLM, NGramLM
 
-class TextNgramProbExtractor:
-    """TODO"""
+# from typing import Iterable, Tuple
+# from time import time
+# from typing import Iterable
+# from ngram_lm import UnigramLM, NGramLM
 
-    def __init__(self, model_path, model_type, remove_word_spaces=True):
-        self.remove_word_spaces = remove_word_spaces
-        self.models = {
-            "unigram" : UnigramLM,
-            "ngram" : NGramLM
-        }
-        self.load(model_path, model_type)
+# class TextNgramProbExtractor:
+#     """
+#     Class for extracting probabilities on stimulis files
+    
+#     Parameters
+#     ----------
+#     - model_path: str
+#         Path to the model to be loaded
+#     """
+
+#     def __init__(self, model_path, model_type, remove_word_spaces=True):
+#         self.remove_word_spaces = remove_word_spaces
+#         self.models = {
+#             "unigram" : UnigramLM,
+#             "ngram" : NGramLM
+#         }
+#         self.load(model_path, model_type)
 
     
-    def load(self, model_path, model_type) -> None:
-        """TODO"""
-        if model_type not in self.models :
-            raise ValueError("Model type have to be among ['unigram', 'ngram']")
-        self.model = self.models[model_type]()
-        self.model.load(model_path)
-        self.loaded = True
+#     def load(self, model_path, model_type) -> None:
+#         """TODO"""
+#         if model_type not in self.models :
+#             raise ValueError("Model type have to be among ['unigram', 'ngram']")
+#         self.model = self.models[model_type]()
+#         self.model.load(model_path)
+#         self.loaded = True
     
-    def preprocessing(self, example) -> str:
-        """TODO"""
-        if self.remove_word_spaces:
-            return example.replace(' <SEP> ', ' ')
+#     def preprocessing(self, example) -> str:
+#         """
+#         Preprocess the example by adding or replacing some tokens.
 
-    def extract_all(self, data) -> Tuple[Iterable, Iterable]:
-        start_time = time()
-        seq_names = data['filename']
-        transcriptions = data['transcription']
-        probabilities = []
-        for transcription in transcriptions:
-            preprocessed = self.preprocessing(transcription)
-            logprob = self.model.assign_logprob(preprocessed)
-            probabilities.append(logprob)
-        print(f"Done computing probabilities in %.2f s." % (time() - start_time))
-        return seq_names, probabilities
+
+#         """
+#         if self.remove_word_spaces:
+#             return example.replace(' <SEP> ', ' ')
+
+#     def extract_all(self, data) -> Tuple[Iterable, Iterable]:
+#         start_time = time()
+#         seq_names = data['filename']
+#         transcriptions = data['transcription']
+#         probabilities = []
+#         for transcription in transcriptions:
+#             preprocessed = self.preprocessing(transcription)
+#             logprob = self.model.assign_logprob(preprocessed)
+#             probabilities.append(logprob)
+#         print(f"Done computing probabilities in %.2f s." % (time() - start_time))
+#         return seq_names, probabilities
     
-    def write_probabilities(self, seq_names, probabilities, out_file):
-        out_file.parent.mkdir(exist_ok=True, parents=True)
-        with open(out_file, 'w') as f:
-            for filename, prob in zip(seq_names, probabilities):
-                f.write(f'{filename} {prob}\n')
-        print(f'Writing pseudo-probabilities to {out_file}')
+#     def write_probabilities(self, seq_names, probabilities, out_file):
+#         out_file.parent.mkdir(exist_ok=True, parents=True)
+#         with open(out_file, 'w') as f:
+#             for filename, prob in zip(seq_names, probabilities):
+#                 f.write(f'{filename} {prob}\n')
+#         print(f'Writing pseudo-probabilities to {out_file}')
 
 def parseArgs():
     parser = ArgumentParser()  
