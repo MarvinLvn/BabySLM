@@ -12,9 +12,9 @@ from ..models.ngram_model.ngram_lm import UnigramLM, NGramLM
 
 # non standard python libraries import
 import pandas as pd
-from fairseq import tasks, checkpoint_utils
-import torch
-from transformers import BertTokenizer
+# from fairseq import tasks, checkpoint_utils
+# import torch
+# from transformers import BertTokenizer
 
 # class ProbExtractor:
 #     def __init__(self, model_path, dict_path, out_path, batch_size, pooling='mean', gpu=True):

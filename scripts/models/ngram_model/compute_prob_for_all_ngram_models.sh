@@ -39,6 +39,7 @@ for hours in $models_path/*; do
         model_name=$(basename -- "$model")
         model_stem="${model_name%.*}"
         output=$output_path/$(basename -- "$hours")/$model_stem
+        echo $model
         python scripts/models/ngram_model/compute_prob_ngram_lm.py --input_path $input_path --output_path $output --model_path $model --model_type $model_type --mode $mode --text --remove_word_spaces
     done
 done

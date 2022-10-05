@@ -10,7 +10,7 @@ from pathlib import Path
 from itertools import tee
 from collections import defaultdict
 
-# import download packages
+# import downloaded packages
 import numpy as np
 
 random.seed(1798)
@@ -50,8 +50,8 @@ class BaseNgramLM(ABC):
 
         Return
         -------
-        - list:
-            List of ngrams extracted from the utterance.
+        - Iterator:
+            Iterator over the ngrams extracted from the utterance.
         """
         if self.pad_utterances and self.ngram_size > 1:
             # add '<' for start token padding and '>' for\

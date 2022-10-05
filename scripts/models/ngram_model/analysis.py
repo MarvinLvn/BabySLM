@@ -1,7 +1,5 @@
 """Analysing the results"""
 
-from os import ctermid
-import re
 import pandas as pd
 from collections import defaultdict
 from ngram_lm import NGramLM
@@ -87,9 +85,6 @@ def unknown_ngrams_lexical_task(csv_file, models_folder):
     df = df.rename(columns={"mean":"Count"})
     return df
 
-
-
-
 def create_df_by_hours_syntactic(results):
     all_results = []
     for results_type in results.rglob("*by_type.csv"):
@@ -149,16 +144,16 @@ def create_df_by_hours_lexical(results):
 # lm.load("trained_models/ngrams/unigrams/128h/00.pkl")
 # print_score_diffs(lm, preprocessed_pairs)
 
-results_path = Path("results")
+results_path = Path("results_corrected2")
 # out = create_df_by_hours_syntactic(results_path)
 # out.to_csv("plots/data/agg_syn.csv")
 
-# out = create_df_by_hours_lexical(results_path)
-# out.to_csv("plots/data/agg_lex.csv")
+out = create_df_by_hours_lexical(results_path)
+out.to_csv("plots/data/agg_lex.csv")
 
-out = unknown_ngrams_lexical_task("data/model_evaluation/lexical/test/gold.csv",
-                                    Path("trained_models/ngrams/"))
-out.to_csv("plots/data/unknown_lex.csv")
+# out = unknown_ngrams_lexical_task("data/model_evaluation/lexical/test/gold.csv",
+#                                     Path("trained_models/ngrams/"))
+# out.to_csv("plots/data/unknown_lex.csv")
 
 
 
