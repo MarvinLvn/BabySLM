@@ -4,7 +4,7 @@ programname=$trainer_on_all_files
 function usage {
     echo "usage: $programname [-h] [-i input_path] [-m models_path] [-t model_type] [-e mode] [-o output_path]"
     echo "  -h  display help."
-    echo "  -i  Folder storing the gold files for test or dev or both."
+    echo "  -i  Folder storing the gold files for test or dev."
     echo "  -m  Path where all the trained models are stored."
     echo "  -t  The type of ngram model, must be 'unigram' or 'ngram'."
     echo "  -e  Evaluate the models on 'test', 'dev' or 'both'."
