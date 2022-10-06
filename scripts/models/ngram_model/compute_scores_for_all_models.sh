@@ -7,7 +7,7 @@ function usage {
     echo "  -i  Path containing gold files."
     echo "  -p  Path containing files storing the predicted probabilities."
     echo "  -k  The type of evaluated dataset. Must be 'dev' or 'test'."
-    echo "  -t  The task."
+    echo "  -t  The task: 'lexical' or 'syntactic'."
     exit 1
 }
 

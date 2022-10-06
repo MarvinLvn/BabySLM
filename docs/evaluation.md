@@ -82,7 +82,7 @@ Where:
 - `-e  Evaluate the models on 'test' or 'dev'.`
 - `-o  Path to where the computed probabilities will be stored.`
 
-For example, if we assume that the evaluation corpora for lexical and syntactic tasks are stored in a `data/model_evaluation/` folder and that the trained ngram models are stored in a `trained_models/ngrams/` folder, then run this script for computing the probabilities on the test corpus for the lexical task for the trigram models :
+For example, if we assume that the evaluation corpora for lexical and syntactic tasks are stored in a `data/model_evaluation/` folder and that the trained ngram models are stored in a `trained_models/ngrams/` folder, then run this command line for computing the probabilities on the test corpus for the lexical task for the trigram models :
 
 ```bash
 
@@ -100,9 +100,9 @@ Where:
 - `-i  Path containing gold files.`
 - `-p  Path containing files storing the predicted probabilities.`
 - `-k  The type of evaluated dataset. Must be 'dev' or 'test'.`
-- `-t  The task.`
+- `-t  The task : 'lexical' or 'syntactic'.`
 
-For example, if we assume that the evaluation corpora for lexical and syntactic tasks are stored in a `data/model_evaluation/` folder and that the predicted probabilities by a, lets say, trigram model are stored in a `results/trigrams` folder, then run this script for computing the scores on the test corpus for the lexical:
+For example, if we assume that the evaluation corpora for lexical and syntactic tasks are stored in a `data/model_evaluation/` folder and that the predicted probabilities by a, lets say, trigram model are stored in a `results/trigrams` folder, then run this command line for computing the scores on the test corpus for the lexical:
 
 ```bash
 sh scripts/models/ngram_model/compute_scores_for_all_models.sh -i data/model_evaluation/ -p results/unigrams/ -k dev -t lexical
