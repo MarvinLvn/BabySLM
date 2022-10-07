@@ -16,6 +16,18 @@ pip install fastBPE sacremoses
 
 All commands will be given for the 128 hours training set blabla
 
+### Train Ngram models
+The bash script takes as input a folder organized as `hours/training_sets`. This script can be called with this command line:
+
+```bash
+sh scripts/models/ngram_model/train_all_ngram_models.sh -i <INPUT_FOLDER> -n <NGRAM_SIZE> -o <OUTPUT_FOLDER>
+
+```
+where:
+- `-i   The folder storing all training files. Must be of the for hours/training_sets`
+- `-n   The size of the ngrams.`
+- `-o   The folder where all the trained models will be stored.`
+
 ### Train LSTM (phones)
 
 1) Preprocess the data:
