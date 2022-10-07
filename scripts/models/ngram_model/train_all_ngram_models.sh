@@ -4,9 +4,9 @@ programname=$trainer_on_all_files
 function usage {
     echo "usage: $programname [-h] [-i train_files_folder] [-n ngram_size] [-o output_path]"
     echo "  -h  display help."
-    echo "  -i  folder storing all training files."
-    echo "  -n  the size of the ngrams."
-    echo "  -o  folder where all the trained files will be stored."
+    echo "  -i  The folder storing all training files. Must be of the for hours/training_sets"
+    echo "  -n  The size of the ngrams."
+    echo "  -o  The folder where all the trained models will be stored."
     exit 1
 }
 
