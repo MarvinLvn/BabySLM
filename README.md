@@ -1,7 +1,7 @@
-# Behavioral probing of language acquisition models at the lexical and syntactic levels
+# About
 
 <p align="center" width="100%">
-<img src="./docs/benchmarking_speech_acquisition_transp.png"> 
+<img src="./docs/images/benchmarking_speech_acquisition_transp.png"> 
 </p>
 
 Welcome to this repository where you'll find all you need to evaluate your language acquisition model at:
@@ -31,6 +31,8 @@ These behavioral probing tasks are based on probability assigned to a given stim
 You'll probably want to start from there:
 
 - [How to download the data? How to evaluate my own model?](docs/evaluation.md)
+
+# Reproduce the BabySLM benchmark
 
 But if you want to go further:
 
