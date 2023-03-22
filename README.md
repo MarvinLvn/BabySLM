@@ -1,8 +1,8 @@
-# About
-
 <p align="center" width="100%">
 <img src="./docs/images/benchmarking_speech_acquisition_transp.png"> 
 </p>
+
+# About
 
 Welcome to this repository where you'll find all you need to evaluate your language acquisition model at:
 1) the lexical level using a spot-the-word task (available in audio or phonetic form)
