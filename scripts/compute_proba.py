@@ -2,8 +2,8 @@ from pathlib import Path
 from os.path import exists, join, basename, dirname, abspath
 import sys
 import argparse
-from prob_utils.loaders import load_stimuli_text
-from prob_utils.probability_extractors import TextLstmProbExtractor
+from prob_utils.loaders import load_stimuli_text, load_quantized_units
+from prob_utils.probability_extractors import LstmProbExtractor
 import json
 
 
@@ -13,6 +13,7 @@ def write_args(args, example_input, out_file):
     args['example_input'] = example_input
     args['input_path'] = str(args['input_path'])
     args['model_path'] = str(args['model_path'])
+    args['dict_path'] = str(args['dict_path'])
     with open(out_file, 'w') as f:
         json.dump(args, f, indent=2, ensure_ascii=False)
     print(f'Writing args to {out_file}')
@@ -42,14 +43,15 @@ def parseArgs(argv):
                         help="If activated, will load text instead of audio (for text-based language models).")
     parser.add_argument('--phonemize', action='store_true',
                         help="If activated, will phonemize the input (will store cache "
-                             "file containing phonemized input in the data folder).")
+                             "file containing phonemized input in the data folder). Only used if --text is activated.")
     parser.add_argument('--remove_word_spaces', action='store_true',
                         help="If activated will remove word spaces (only useful for syntactic evaluation)."
-                             "Should be activated for models that haven't received spaces during training.")
+                             "Should be activated for models that haven't received spaces during training. "
+                             "Only used if --text is activated.")
     parser.add_argument('--bpe_encode', action='store_true',
-                        help="If activated, will BPE encode input.")
+                        help="If activated, will BPE encode input. Only used if --text is activated.")
     parser.add_argument('--bos_eos', action='store_true',
-                        help="If activated, will add <BOS> and <EOS> TOKENS.")
+                        help="If activated, will add <BOS> and <EOS> TOKENS. Only used if --text is activated.")
     return parser.parse_args(argv)
 
 
@@ -57,12 +59,12 @@ def main(argv):
     # Args parser
     args = parseArgs(argv)
     args.input_path = Path(args.input_path)
-    args.model_path = Path(args.model_path)
-    if args.model_path.suffix != '.pt':
-        raise ValueError('--model_path should point to a checkpoint file (.pt)')
     if args.phonemize:
         if args.input_path == 'lexical':
             raise ValueError('--phonemize flag can''t be activated when evaluating on lexicon.')
+    args.model_path = Path(args.model_path)
+    if args.model_path.suffix != '.pt':
+        raise ValueError('--model_path should point to a checkpoint file (.pt)')
     out_path = args.input_path.stem
     if args.dict_path is not None:
         args.dict_path = Path(args.dict_path)
@@ -77,13 +79,15 @@ def main(argv):
     if args.text:
         stimuli = load_stimuli_text(args.input_path, args.mode, args.debug, args.phonemize)
     else:
-        raise ValueError("Not implemented yet.")
+        stimuli = load_quantized_units(args.input_path, args.mode, args.debug)
 
-    # Extract pseudo-prob
-    prob_extractor = TextLstmProbExtractor(model_path=args.model_path, dict_path=args.dict_path,
-                                           out_path=out_path, batch_size=args.batch_size, bpe_encode=args.bpe_encode,
-                                           bos_eos=args.bos_eos, pooling=args.pooling,
-                                           remove_word_spaces=args.remove_word_spaces)
+    prob_extractor = LstmProbExtractor(model_path=args.model_path, dict_path=args.dict_path,
+                                       out_path=out_path, batch_size=args.batch_size,
+                                       bpe_encode=args.bpe_encode,
+                                       bos_eos=args.bos_eos, pooling=args.pooling,
+                                       remove_word_spaces=args.remove_word_spaces,
+                                       audio=not args.text)
+
     for data, data_name in zip(stimuli, args.mode):
         seq_names, probabilities = prob_extractor.extract_all(data)
         out_file = args.model_path.parent / type_data / 'tmp' / type_task / f'{data_name}.txt'

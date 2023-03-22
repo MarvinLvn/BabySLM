@@ -7,10 +7,12 @@ from fairseq import tasks, checkpoint_utils
 from time import time
 import torch
 from transformers import BertTokenizer
+from audio_lm.utils.utils_functions import loadLSTMLMCheckpoint
+from tqdm.auto import tqdm
 
 
 class ProbExtractor:
-    def __init__(self, model_path, dict_path, out_path, batch_size, pooling='mean', gpu=True):
+    def __init__(self, model_path, dict_path, out_path, batch_size, pooling='mean', gpu=True, audio=False):
         # set attributes
         self.model_path = model_path
         self.dict_path = dict_path
@@ -23,7 +25,7 @@ class ProbExtractor:
         self.task = None
         self.loaded = False
         self.gpu = gpu
-        print(self.model_path)
+        self.audio = audio
         # check everything is ok
         if not self.model_path.is_file():
             raise ValueError("%s not found." % self.model_path)
@@ -47,38 +49,42 @@ class ProbExtractor:
 
 
 
-
-class TextLstmProbExtractor(ProbExtractor):
+class LstmProbExtractor(ProbExtractor):
     def __init__(self, model_path, dict_path, out_path, batch_size, remove_word_spaces, bpe_encode=False,
-                 bos_eos=False, pooling='mean', gpu=True):
-        super().__init__(model_path, dict_path, out_path, batch_size, pooling, gpu)
+                 bos_eos=False, pooling='mean', gpu=True, audio=False):
+        super().__init__(model_path, dict_path, out_path, batch_size, pooling, gpu, audio)
         self.remove_word_spaces = remove_word_spaces
         self.example_input = None
         self.bpe_encode = bpe_encode
         if bpe_encode:
             self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
         self.bos_eos = bos_eos
+        self.audio = audio
 
     def preprocessing(self, example):
-        if self.remove_word_spaces:
-            example = example.replace(' <SEP> ', ' ')
-        if self.bpe_encode:
-            example = ' '.join(self.tokenizer.tokenize(example))
-        if self.bos_eos:
-            example = '<BOS> ' + example + ' <EOS>'
+        # Text-specific preprocessing steps
+        if not self.audio:
+            if self.remove_word_spaces:
+                example = example.replace(' <SEP> ', ' ')
+            if self.bpe_encode:
+                example = ' '.join(self.tokenizer.tokenize(example))
+            if self.bos_eos:
+                example = '<BOS> ' + example + ' <EOS>'
         return example
 
     def load_model(self):
-        # Set up the args Namespace
-        model_args = argparse.Namespace(task='language_modeling', output_dictionary_size=-1,
-                                        data=str(self.dict_path), path=str(self.model_path))
+        if self.audio:
+            model, task = loadLSTMLMCheckpoint(str(self.model_path), str(self.dict_path))
+        else:
+            # Set up the args Namespace
+            model_args = argparse.Namespace(task='language_modeling', output_dictionary_size=-1,
+                                            data=str(self.dict_path), path=str(self.model_path))
+            # Setup task
+            task = tasks.setup_task(model_args)
+            # Load model
+            models, _model_args = checkpoint_utils.load_model_ensemble([model_args.path], task=task)
+            model = models[0]
 
-        # Setup task
-        task = tasks.setup_task(model_args)
-
-        # Load model
-        models, _model_args = checkpoint_utils.load_model_ensemble([model_args.path], task=task)
-        model = models[0]
         print("Model loaded.")
         if self.gpu:
             model = model.cuda()
@@ -126,22 +132,25 @@ class TextLstmProbExtractor(ProbExtractor):
         return proba_list
 
     def extract_all(self, data):
+        if self.audio:
+            input_data = data['quantized']
+        else:
+            input_data = data['transcription']
+
         seq_names = data['filename']
-        transcriptions = data['transcription']
-        transcriptions = [self.preprocessing(t) for t in transcriptions]
-        print(f'Example input: {transcriptions[0]}')
-        self.example_input = transcriptions[0]
+        input_data = [self.preprocessing(t) for t in input_data]
+        print(f'Example input: {input_data[0]}')
+        self.example_input = input_data[0]
         n_batches = len(seq_names) // self.batch_size
         if len(seq_names) % self.batch_size != 0:
             n_batches += 1
         start_time = time()
         probabilities = []
-        for i in range(n_batches):
+        for i in tqdm(range(n_batches)):
             start_time_batch = time()
-            transcriptions_batch = transcriptions[i*self.batch_size:min(len(seq_names), (i+1)*self.batch_size)]
+            transcriptions_batch = input_data[i*self.batch_size:min(len(seq_names), (i+1)*self.batch_size)]
             proba_batch = self.extract_batch(transcriptions_batch)
             probabilities.extend(proba_batch)
-            print(f'Done computing batch number %d in %.2f s.' % (i, time()-start_time_batch))
         print(f"Done computing probabilities in %.2f s." % (time()-start_time))
         return seq_names, probabilities
 

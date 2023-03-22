@@ -28,38 +28,23 @@ def load_model(model_name):
     model.eval()
     return {'tokenizer': tokenizer, 'model': model}
 
-
-def babyberta_probing(model, data):
+def prob_extractor_babyberta(model, data):
     """
     Probe BabyBERTa model
     :param model:           a dictionnary with keys ['tokenizer', 'model']
     :param data:            a pandas dataframe with columns ['real', 'fake']
     :return:                cross entropies computed by the BabyBERTa model
     """
-    # fillna('nan') is to handle the word nan in sWUGGY
-    # that gets converted to not a number
-    real_stimuli = data.real.fillna('nan').values[:50]
-    fake_stimuli = data.fake.values[:50]
-    stimuli = np.concatenate((real_stimuli, fake_stimuli))
-    stimuli = make_sequences(stimuli, num_sentences_per_input=1)
-    stimuli = DataSet.for_probing(stimuli, model['tokenizer'])
+    seq_names = data['filename']
+    stimuli = data['transcription']
 
+    stimuli = make_sequences(stimuli, num_sentences_per_input=1)
+    stimuli = ['<s> '+s+' </s>' for s in stimuli]
+    stimuli = DataSet.for_probing(stimuli, model['tokenizer'])
     cross_entropies = calc_cross_entropies(model['model'], stimuli)
     cross_entropies = [-c for c in cross_entropies]
 
-    assert len(real_stimuli) + len(fake_stimuli) == len(cross_entropies)
-    out = pd.DataFrame({'real': real_stimuli, 'fake': fake_stimuli,
-           'real_pp': cross_entropies[:len(real_stimuli)],
-           'fake_pp': cross_entropies[-len(fake_stimuli):]})
-
-    # Compute acc across real stimuli, then average
-    # For sBLIMP, this will be the classic accuracy
-    # For sWUGGY, it will be the accuracy across words
-    out['is_model_right'] = out['real_pp'] > out['fake_pp']
-    acc_score = (out.groupby('real')['is_model_right'].mean()).sum() / len(out)
-
-    print("Accuracy is: %.2f" % (acc_score * 100))
-    return out, acc_score
+    return seq_names, cross_entropies
 
 
 def calc_cross_entropies(model, dataset):

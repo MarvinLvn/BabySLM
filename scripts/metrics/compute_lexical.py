@@ -42,14 +42,19 @@ def load_data(gold_file, submission_file, is_text=False):
     gold = pandas.read_csv(
         gold_file, header=0, index_col='filename').astype(
         {'frequency': pandas.Int64Dtype()})
-    if is_text:
-        voices = gold['voice'].unique()
-        gold = gold[gold['voice'] == voices[0]]
     score = pandas.read_csv(
         submission_file, sep=' ', header=None,
         names=['filename', 'score'], usecols=[0, 1], index_col='filename')
 
-    data = pandas.concat([gold, score], axis=1)
+    if is_text:
+        voices = gold['voice'].unique()
+        gold = gold[gold['voice'] == voices[0]]
+        # same number of lines is expected
+        data = pandas.concat([gold, score], axis=1)
+    else:
+        # merge by filename
+        data = pandas.merge(gold, score, on='filename')
+
     data.reset_index(drop=True, inplace=True)
 
     if len(data) != len(gold):
@@ -241,6 +246,8 @@ def main(argv):
                         help="Do we need to look for the dev, or the test files?")
     parser.add_argument('--is_text', action='store_true',
                         help="If activated, will only keep one voice (for text-based language models).")
+    parser.add_argument('--task_name', type=str, default='lexical',
+                        help="Name of folder where to look for gold and hypothesis files.")
     args = parser.parse_args(argv)
 
     kind = args.kind
@@ -249,8 +256,8 @@ def main(argv):
     output = pathlib.Path(args.output)
 
     print(f'Evaluating lexical {kind}...')
-    gold_file = dataset / 'lexical' / kind / 'gold.csv'
-    submission_file = submission / 'lexical' / f'{kind}.txt'
+    gold_file = dataset / args.task_name / kind / 'gold.csv'
+    submission_file = submission / args.task_name / f'{kind}.txt'
 
     all_trials, by_pair, by_frequency, by_length = evaluate(gold_file, submission_file, is_text=args.is_text)
 

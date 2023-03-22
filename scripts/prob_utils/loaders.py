@@ -1,6 +1,4 @@
 import pandas as pd
-from providence.phonemize import phonemize_sentence, load_phonemizers
-from paraphone.workspace import Workspace
 from pathlib import Path
 import os
 
@@ -17,12 +15,14 @@ def phonemize_input(data, stimuli_path, phonemizers, key):
 
 def load_stimuli_text(path, kinds, debug=False, phonemize=False):
     out = []
-    if path.stem == 'lexical':
+    if path.stem.startswith('lexical'):
         key = 'phones'
     else:
         key = 'transcription'
     if phonemize:
         # Not the cleanest way to do it :/
+        from providence.phonemize import phonemize_sentence, load_phonemizers
+        from paraphone.workspace import Workspace
         workspace = Workspace(Path(os.path.dirname(os.path.realpath(__file__))).parent.parent)
         phonemizers = load_phonemizers(workspace)
 
@@ -38,4 +38,26 @@ def load_stimuli_text(path, kinds, debug=False, phonemize=False):
         data.columns = ['transcription', 'filename']
         out.append(data)
     print('Stimuli loaded.')
+    return out
+
+
+def load_quantized_units(path, kinds, debug=False):
+    out = []
+    for kind in kinds:
+        names = []
+        seqs = []
+        quantized_path = path / kind / 'quantized_outputs.txt'
+        with open(quantized_path, 'r') as f:
+            for line in f:
+                # Convert sequence to the desired input form
+                name, seq = line.strip().split("\t")
+                seq = seq.replace(",", " ")
+                # Add to lists
+                names.append(name)
+                seqs.append(seq)
+        if debug:
+            names = names[:50]
+            seqs = seqs[:50]
+        out.append(pd.DataFrame({'filename': names, 'quantized': seqs}))
+    print('Quantized stimuli loaded.')
     return out

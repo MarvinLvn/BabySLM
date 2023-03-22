@@ -65,7 +65,15 @@ def load_data(gold_file, submission_file, is_text=False):
 
         sys.exit(1)
 
-    data = pandas.concat([gold, score], axis=1)
+    if is_text:
+        voices = gold['voice'].unique()
+        gold = gold[gold['voice'] == voices[0]]
+        # same number of lines is expected
+        data = pandas.concat([gold, score], axis=1)
+    else:
+        # merge by filename
+        data = pandas.merge(gold, score, on='filename')
+
     data.reset_index(drop=True, inplace=True)
 
     if len(data) != len(gold):
@@ -219,6 +227,8 @@ def main(argv):
                         help='Path where the pseudo-probabilities lie.')
     parser.add_argument('-k', '--kind', type=str, required=True, choices=['dev', 'test'],
                         help="Do we need to look for the dev, or the test files?")
+    parser.add_argument('--task_name', type=str, default='lexical',
+                        help="Name of folder where to look for gold and hypothesis files.")
     parser.add_argument('--is_text', action='store_true',
                         help="If activated, will only keep one voice (for text-based language models).")
     args = parser.parse_args(argv)
@@ -229,8 +239,8 @@ def main(argv):
     output = pathlib.Path(args.output)
 
     print(f'Evaluating syntactic {kind}...')
-    gold_file = dataset / 'syntactic' / kind / 'gold.csv'
-    submission_file = submission / 'syntactic' / f'{kind}.txt'
+    gold_file = dataset / args.task_name / kind / 'gold.csv'
+    submission_file = submission / args.task_name / f'{kind}.txt'
 
     all_trials, by_pair, by_type = evaluate(gold_file, submission_file, is_text=args.is_text)
 

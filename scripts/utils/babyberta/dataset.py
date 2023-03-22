@@ -84,7 +84,7 @@ class ProbingParams:
     mask_pattern_size = None
     num_mask_patterns = None
     allow_truncated_sentences = False
-    batch_size = 32
+    batch_size = 256
 
 
 class Data:
