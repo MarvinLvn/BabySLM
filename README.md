@@ -24,6 +24,7 @@ These behavioral probing tasks are based on probability assigned to a given stim
    - The model receives two stimuli A=<em>**The nice prince**</em> and B=<em>**The prince nice**</em> that form a pair of (grammatical sentence, ungrammatical sentence)
    - The probability associated to each stimuli is computed: P_A and P_B
    - The model is considered to be right if P_A > P_B 
+</details>
 
 # Getting started
 
