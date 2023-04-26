@@ -32,10 +32,10 @@ However, if you evaluate an audio-based language model, there should be as many 
 # Evaluate models used in the paper
 
 How to evaluate:
-- [STELA (audio)](docs/evaluation/stela_lm.md)
-- [LSTM (phones or words)](docs/evaluation/text_lstm_lm.md)
-- [N-grams (phones or words)](docs/evaluation/ngram_lm.md)
-- [BabyBERTa (words)](docs/evaluation/babyberta_lm.md)
+- [STELA (audio)](evaluation/stela_lm.md)
+- [LSTM (phones or words)](evaluation/text_lstm_lm.md)
+- [N-grams (phones or words)](evaluation/ngram_lm.md)
+- [BabyBERTa (words)](evaluation/babyberta_lm.md)
 
 
 
