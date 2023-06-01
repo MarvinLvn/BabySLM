@@ -8,10 +8,16 @@ Welcome to this repository where you'll find all you need to evaluate your langu
 1) the lexical level using a spot-the-word task (available in audio or phonetic form; see Table 1)
 2) the syntactic level using a grammatical acceptability judgment task (available in audio, phonetic or orthographic form; see Table 2)
 
+<center>
+
 | Word   | Pseudo-word                                                 | Word   | Pseudo-word                                                 |
 |--------|-------------------------------------------------------------|--------|-------------------------------------------------------------|
 | hello  | lello <br> pello <br> sero <br> dello <br> sello <br>       | cookie | kootie <br> koonie <br> roodie <br> rootie <br> boonie <br> |
+
 Table 1: Minimal pairs of real and pseudo-words used in the spot-the-word lexical task.
+</center>
+
+<center>
 
 | Phenomenon                | Sentence example                                                      |
 |---------------------------|-----------------------------------------------------------------------|
@@ -21,7 +27,9 @@ Table 1: Minimal pairs of real and pseudo-words used in the spot-the-word lexica
 | Anaphor-number agreement  | ✓The boys told themselves. <br> ✗ The boys told himself.              |
 | Determiner-noun agreement | ✓ Each good sister. <br> ✗ Many good sister.                          |
 | Noun-verb agreement       | ✓ The prince needs the princess. <br> ✗ The prince need the princess. |
+
 Table 2: Minimal pairs of grammatical (✓)  and ungrammatical (✗) sentences used in the syntactic task.
+</center>
 
 These behavioral probing tasks are based on probability assigned to a given stimuli, it's up to you to decide how you can extract a relevant probability from your model.
 
