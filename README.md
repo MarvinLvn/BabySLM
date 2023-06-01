@@ -1,5 +1,5 @@
 <p align="center" width="30%">
-<img src="./docs/images/benchmarking_speech_acquisition_transp.png"> 
+<img src="./docs/images/babyslm_logo.png"> 
 </p>
 
 # BabySLM: language-acquisition-friendly benchmark of self-supervised spoken language models
@@ -43,7 +43,7 @@ You'll probably want to start from there:
 
 But if you want to go further:
 
-- [How to evaluate models used in the paper?](docs/evaluation.md)
+- [How to evaluate the models used in the paper?](docs/evaluation.md)
 - [How to retrain the models used in the paper?](docs/training.md)
 - [How to prepare the training sets used in the paper?](docs/data.md)
 - [How to recreate the lexical evaluation?](https://github.com/MarvinLvn/ChildDirectedLexicalTest)
