@@ -43,7 +43,7 @@ python scripts/audio_lm/quantize_audio.py $KMEANS_PATH $BABYSLM_PATH $OUTPUT_PAT
 2) Compute probabilities:
 
 ```bash
-QUANTIZED_INPUT=babyslm_models/stela_audiobooks_1024h/features_lexical
+QUANTIZED_INPUT=babyslm_models/stela_audiobooks_1024h/quantized/lexical
 PATH_LSTM=babyslm_models/stela_audiobooks_1024h/lstm/checkpoint_best.pt
 DICT_PATH=babyslm_models/stela_audiobooks_1024h/lstm
 

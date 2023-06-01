@@ -10,6 +10,14 @@ Welcome to this repository where you'll find all you need to evaluate your langu
 
 These behavioral probing tasks are based on probability assigned to a given stimuli, it's up to you to decide how you can extract a relevant probability from your model.
 
+# Getting started
+
+You'll probably want to start from there:
+
+- [How to download the data? How to evaluate my own model?](docs/evaluation.md)
+
+# Examples of stimuli
+
 <center>
 
 | Word   | Pseudo-word                                                 | Word   | Pseudo-word                                                 |
@@ -33,15 +41,9 @@ Table 1: Minimal pairs of real and pseudo-words used in the spot-the-word lexica
 Table 2: Minimal pairs of grammatical (✓)  and ungrammatical (✗) sentences used in the syntactic task.
 </center>
 
-# Getting started
-
-You'll probably want to start from there:
-
-- [How to download the data? How to evaluate my own model?](docs/evaluation.md)
-
 # Reproduce the BabySLM benchmark
 
-But if you want to go further:
+If you want to go further:
 
 - [How to evaluate the models used in the paper?](docs/evaluation.md)
 - [How to retrain the models used in the paper?](docs/training.md)
