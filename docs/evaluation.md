@@ -97,12 +97,12 @@ python scripts/metrics/compute_syntactic.py --gold ~/Documents/babyslm \
 Here, we have an additional `--is_text` flag indicating that the model works with text (orthographic or phonetic form) and that only a single voice should be considered.
 You can check in `overall_accuracy_syntactic_dev.txt` that BabyBERTa obtains a syntactic accuracy of `70.4%` on the dev set.
 
-### Final notes
+### 3) Final notes
 
 Your turn! You can extract probabilities using your own model and storing them following the patterns provided in the `example/babyberta` or `example/librivox_1024h` folders.
 Might be helpful to check how we implemented this for [LSTM](scripts/compute_proba.py), [BabyBERTa](scripts/extract_prob_babyberta.py) and [STELA](scripts/compute_proba.py). 
 
-### Going further
+### 4) Going further
 
 How to evaluate:
 - [STELA (audio)](evaluation/stela_lm.md)
