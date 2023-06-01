@@ -227,7 +227,7 @@ def main(argv):
                         help='Path where the pseudo-probabilities lie.')
     parser.add_argument('-k', '--kind', type=str, required=True, choices=['dev', 'test'],
                         help="Do we need to look for the dev, or the test files?")
-    parser.add_argument('--task_name', type=str, default='lexical',
+    parser.add_argument('--task_name', type=str, default='syntactic',
                         help="Name of folder where to look for gold and hypothesis files.")
     parser.add_argument('--is_text', action='store_true',
                         help="If activated, will only keep one voice (for text-based language models).")

@@ -1,0 +1,2161 @@
+sentence,non sentence,score
+The good mom,The mom good,1.0000
+The good cat,The cat good,1.0000
+The good duck,The duck good,0.0000
+The good dad,The dad good,1.0000
+The good chicken,The chicken good,0.0000
+The good caterpillar,The caterpillar good,0.0000
+The good bee,The bee good,0.0000
+The good owl,The owl good,0.0000
+The good zebra,The zebra good,1.0000
+The good giraffe,The giraffe good,0.0000
+The good turkey,The turkey good,1.0000
+The good donkey,The donkey good,0.0000
+The good goose,The goose good,1.0000
+The little bird,The bird little,1.0000
+The little dad,The dad little,1.0000
+The little bee,The bee little,1.0000
+The little donkey,The donkey little,1.0000
+The big mom,The mom big,1.0000
+The big duck,The duck big,1.0000
+The big elephant,The elephant big,1.0000
+The big bunny,The bunny big,1.0000
+The big dinosaur,The dinosaur big,1.0000
+The big mouse,The mouse big,1.0000
+The big rabbit,The rabbit big,1.0000
+The big bee,The bee big,1.0000
+The big tiger,The tiger big,1.0000
+The big turtle,The turtle big,1.0000
+The big monster,The monster big,1.0000
+The big goose,The goose big,1.0000
+The nice cow,The cow nice,1.0000
+The nice dinosaur,The dinosaur nice,1.0000
+The nice snake,The snake nice,1.0000
+The nice owl,The owl nice,1.0000
+The nice uncle,The uncle nice,1.0000
+The new bird,The bird new,1.0000
+The new kitty,The kitty new,1.0000
+The new sheep,The sheep new,1.0000
+The hot dad,The dad hot,1.0000
+The hot mouse,The mouse hot,1.0000
+The hot lady,The lady hot,1.0000
+The hot turtle,The turtle hot,0.0000
+The hungry animal,The animal hungry,1.0000
+The hungry duck,The duck hungry,1.0000
+The hungry cow,The cow hungry,1.0000
+The hungry elephant,The elephant hungry,0.0000
+The hungry caterpillar,The caterpillar hungry,1.0000
+The hungry bee,The bee hungry,0.0000
+The hungry sheep,The sheep hungry,1.0000
+The hungry turtle,The turtle hungry,1.0000
+The hungry dragon,The dragon hungry,1.0000
+The old horse,The horse old,1.0000
+The old duck,The duck old,1.0000
+The old dad,The dad old,1.0000
+The old cow,The cow old,1.0000
+The old elephant,The elephant old,1.0000
+The old bunny,The bunny old,1.0000
+The old dinosaur,The dinosaur old,1.0000
+The old bee,The bee old,1.0000
+The old snake,The snake old,1.0000
+The old zebra,The zebra old,1.0000
+The old turkey,The turkey old,1.0000
+The old donkey,The donkey old,1.0000
+The old woman,The woman old,1.0000
+The bad girl,The girl bad,1.0000
+The bad dad,The dad bad,1.0000
+The bad bunny,The bunny bad,1.0000
+The bad dinosaur,The dinosaur bad,1.0000
+The bad tiger,The tiger bad,1.0000
+The bad owl,The owl bad,1.0000
+The great mom,The mom great,1.0000
+The great bird,The bird great,1.0000
+The great bunny,The bunny great,1.0000
+The great mouse,The mouse great,1.0000
+The great caterpillar,The caterpillar great,1.0000
+The great rabbit,The rabbit great,1.0000
+The great monster,The monster great,1.0000
+The great giraffe,The giraffe great,1.0000
+The great woman,The woman great,1.0000
+The great goose,The goose great,1.0000
+The different girl,The girl different,1.0000
+The different bird,The bird different,1.0000
+The different duck,The duck different,0.0000
+The different kitty,The kitty different,1.0000
+The different dad,The dad different,1.0000
+The different mouse,The mouse different,0.0000
+The different snake,The snake different,1.0000
+The different tiger,The tiger different,1.0000
+The different turtle,The turtle different,1.0000
+The different zebra,The zebra different,1.0000
+The different dragon,The dragon different,1.0000
+The different goose,The goose different,1.0000
+The same mom,The mom same,1.0000
+The same bird,The bird same,1.0000
+The same dad,The dad same,1.0000
+The same lady,The lady same,1.0000
+The same rabbit,The rabbit same,1.0000
+The same sheep,The sheep same,1.0000
+The same turtle,The turtle same,1.0000
+The same monster,The monster same,1.0000
+The same owl,The owl same,1.0000
+The same dragon,The dragon same,1.0000
+The same donkey,The donkey same,1.0000
+The happy mom,The mom happy,1.0000
+The happy cat,The cat happy,1.0000
+The happy horse,The horse happy,1.0000
+The happy bird,The bird happy,1.0000
+The happy mouse,The mouse happy,0.0000
+The happy caterpillar,The caterpillar happy,1.0000
+The happy puppy,The puppy happy,0.0000
+The happy spider,The spider happy,0.0000
+The happy giraffe,The giraffe happy,0.0000
+The happy woman,The woman happy,1.0000
+The small dad,The dad small,1.0000
+The small elephant,The elephant small,0.0000
+The small bunny,The bunny small,1.0000
+The small lion,The lion small,1.0000
+The small bee,The bee small,0.0000
+The small owl,The owl small,1.0000
+The small dragon,The dragon small,1.0000
+The wet person,The person wet,1.0000
+The wet cat,The cat wet,0.0000
+The wet animal,The animal wet,1.0000
+The wet bird,The bird wet,1.0000
+The wet duck,The duck wet,1.0000
+The wet mouse,The mouse wet,1.0000
+The wet lady,The lady wet,1.0000
+The wet lion,The lion wet,1.0000
+The wet tiger,The tiger wet,1.0000
+The wet spider,The spider wet,1.0000
+The wet kangaroo,The kangaroo wet,1.0000
+The wet dragon,The dragon wet,1.0000
+The cute cat,The cat cute,1.0000
+The cute animal,The animal cute,1.0000
+The cute duck,The duck cute,0.0000
+The cute puppy,The puppy cute,0.0000
+The cute rabbit,The rabbit cute,0.0000
+The cute bee,The bee cute,0.0000
+The cute snake,The snake cute,1.0000
+The cute giraffe,The giraffe cute,0.0000
+The cute uncle,The uncle cute,0.0000
+The beautiful bird,The bird beautiful,1.0000
+The beautiful cow,The cow beautiful,1.0000
+The beautiful dinosaur,The dinosaur beautiful,1.0000
+The beautiful monster,The monster beautiful,1.0000
+The beautiful giraffe,The giraffe beautiful,1.0000
+The beautiful donkey,The donkey beautiful,0.0000
+The tiny cat,The cat tiny,1.0000
+The tiny chicken,The chicken tiny,1.0000
+The tiny puppy,The puppy tiny,1.0000
+The tiny snake,The snake tiny,1.0000
+The tiny sheep,The sheep tiny,1.0000
+The tiny monster,The monster tiny,1.0000
+The tiny spider,The spider tiny,1.0000
+The tiny giraffe,The giraffe tiny,1.0000
+The tiny dragon,The dragon tiny,1.0000
+The tiny turkey,The turkey tiny,1.0000
+The tiny woman,The woman tiny,1.0000
+The sick dad,The dad sick,1.0000
+The sick bunny,The bunny sick,0.0000
+The sick dinosaur,The dinosaur sick,1.0000
+The sick mouse,The mouse sick,1.0000
+The sick monkey,The monkey sick,0.0000
+The sick lion,The lion sick,1.0000
+The sick turtle,The turtle sick,1.0000
+The sick spider,The spider sick,0.0000
+The sick donkey,The donkey sick,0.0000
+The sick woman,The woman sick,1.0000
+The soft girl,The girl soft,1.0000
+The soft guy,The guy soft,1.0000
+The soft animal,The animal soft,1.0000
+The soft chicken,The chicken soft,0.0000
+The soft lion,The lion soft,1.0000
+The soft monster,The monster soft,1.0000
+The soft owl,The owl soft,1.0000
+The soft dragon,The dragon soft,1.0000
+The soft turkey,The turkey soft,1.0000
+The soft goose,The goose soft,1.0000
+The heavy girl,The girl heavy,1.0000
+The heavy donkey,The donkey heavy,0.0000
+The heavy uncle,The uncle heavy,1.0000
+The heavy goose,The goose heavy,1.0000
+The neat dad,The dad neat,0.0000
+The neat elephant,The elephant neat,0.0000
+The neat mouse,The mouse neat,1.0000
+The neat tiger,The tiger neat,0.0000
+The neat kangaroo,The kangaroo neat,0.0000
+The poor girl,The girl poor,1.0000
+The poor cat,The cat poor,1.0000
+The poor dinosaur,The dinosaur poor,1.0000
+The poor puppy,The puppy poor,1.0000
+The poor monster,The monster poor,1.0000
+The poor dragon,The dragon poor,1.0000
+The poor donkey,The donkey poor,1.0000
+The sad girl,The girl sad,1.0000
+The sad bird,The bird sad,1.0000
+The sad elephant,The elephant sad,0.0000
+The sad lady,The lady sad,1.0000
+The sad kangaroo,The kangaroo sad,0.0000
+The sad woman,The woman sad,1.0000
+The tall mom,The mom tall,1.0000
+The tall animal,The animal tall,1.0000
+The tall bird,The bird tall,1.0000
+The tall dad,The dad tall,1.0000
+The tall cow,The cow tall,1.0000
+The tall giraffe,The giraffe tall,1.0000
+The loud person,The person loud,1.0000
+The loud dad,The dad loud,1.0000
+The loud puppy,The puppy loud,0.0000
+The loud lion,The lion loud,0.0000
+The loud tiger,The tiger loud,0.0000
+The loud goose,The goose loud,1.0000
+The mad girl,The girl mad,1.0000
+The mad mouse,The mouse mad,1.0000
+The mad monster,The monster mad,1.0000
+The mad zebra,The zebra mad,1.0000
+The mad donkey,The donkey mad,0.0000
+The mad woman,The woman mad,1.0000
+The interesting person,The person interesting,1.0000
+The interesting guy,The guy interesting,1.0000
+The interesting bird,The bird interesting,1.0000
+The interesting dad,The dad interesting,1.0000
+The interesting turtle,The turtle interesting,1.0000
+The interesting spider,The spider interesting,1.0000
+The interesting zebra,The zebra interesting,1.0000
+The interesting kangaroo,The kangaroo interesting,0.0000
+The interesting giraffe,The giraffe interesting,0.0000
+The interesting woman,The woman interesting,1.0000
+The strong girl,The girl strong,1.0000
+The strong cat,The cat strong,1.0000
+The strong lion,The lion strong,1.0000
+The strong sheep,The sheep strong,1.0000
+The strong turtle,The turtle strong,1.0000
+The strong owl,The owl strong,1.0000
+The strong turkey,The turkey strong,1.0000
+The strong donkey,The donkey strong,0.0000
+The strong uncle,The uncle strong,1.0000
+The delicious mom,The mom delicious,1.0000
+The delicious dinosaur,The dinosaur delicious,1.0000
+The delicious puppy,The puppy delicious,1.0000
+The delicious bee,The bee delicious,0.0000
+The delicious monster,The monster delicious,0.0000
+The delicious spider,The spider delicious,0.0000
+The delicious dragon,The dragon delicious,0.0000
+The delicious turkey,The turkey delicious,1.0000
+The delicious goose,The goose delicious,1.0000
+The dead horse,The horse dead,0.0000
+The dead duck,The duck dead,0.0000
+The dead dad,The dad dead,1.0000
+The dead lady,The lady dead,0.0000
+The dead snake,The snake dead,1.0000
+The broke animal,The animal broke,0.0000
+The broke bird,The bird broke,0.0000
+The broke dad,The dad broke,0.0000
+The broke bunny,The bunny broke,0.0000
+The broke chicken,The chicken broke,0.0000
+The broke rabbit,The rabbit broke,0.0000
+The broke uncle,The uncle broke,0.0000
+The short guy,The guy short,1.0000
+The short animal,The animal short,1.0000
+The short lady,The lady short,1.0000
+The short spider,The spider short,1.0000
+The short turkey,The turkey short,1.0000
+The short woman,The woman short,1.0000
+The afraid dad,The dad afraid,0.0000
+The afraid caterpillar,The caterpillar afraid,0.0000
+The afraid turtle,The turtle afraid,0.0000
+The afraid owl,The owl afraid,0.0000
+The afraid spider,The spider afraid,0.0000
+The afraid zebra,The zebra afraid,0.0000
+The afraid turkey,The turkey afraid,0.0000
+The glad mom,The mom glad,1.0000
+The glad duck,The duck glad,1.0000
+The glad kitty,The kitty glad,0.0000
+The glad bunny,The bunny glad,1.0000
+The glad bee,The bee glad,0.0000
+The glad giraffe,The giraffe glad,0.0000
+The angry person,The person angry,1.0000
+The angry horse,The horse angry,0.0000
+The angry duck,The duck angry,0.0000
+The angry bunny,The bunny angry,0.0000
+The angry monkey,The monkey angry,0.0000
+The angry turtle,The turtle angry,1.0000
+The angry kangaroo,The kangaroo angry,1.0000
+The angry giraffe,The giraffe angry,0.0000
+The angry dragon,The dragon angry,1.0000
+The young girl,The girl young,1.0000
+The young horse,The horse young,1.0000
+The young bunny,The bunny young,1.0000
+The young chicken,The chicken young,1.0000
+The young monkey,The monkey young,1.0000
+The young spider,The spider young,1.0000
+The young kangaroo,The kangaroo young,1.0000
+The young goose,The goose young,1.0000
+The super horse,The horse super,1.0000
+The super duck,The duck super,1.0000
+The super chicken,The chicken super,1.0000
+The super mouse,The mouse super,1.0000
+The super monkey,The monkey super,0.0000
+The super rabbit,The rabbit super,1.0000
+The super monster,The monster super,1.0000
+The super owl,The owl super,1.0000
+The super zebra,The zebra super,1.0000
+The super kangaroo,The kangaroo super,1.0000
+The super donkey,The donkey super,0.0000
+The stupid cat,The cat stupid,0.0000
+The stupid dad,The dad stupid,0.0000
+The stupid mouse,The mouse stupid,0.0000
+The stupid bee,The bee stupid,0.0000
+The stupid woman,The woman stupid,0.0000
+The terrible person,The person terrible,1.0000
+The terrible horse,The horse terrible,1.0000
+The terrible mouse,The mouse terrible,1.0000
+The terrible monkey,The monkey terrible,0.0000
+The terrible caterpillar,The caterpillar terrible,0.0000
+The terrible snake,The snake terrible,1.0000
+The terrible giraffe,The giraffe terrible,0.0000
+The terrible dragon,The dragon terrible,0.0000
+The terrible turkey,The turkey terrible,0.0000
+The terrible uncle,The uncle terrible,0.0000
+The terrible goose,The goose terrible,1.0000
+The dad sees himself,The mom sees himself,1.0000
+The boy sees himself,The girl sees himself,0.0000
+The man sees himself,The woman sees himself,1.0000
+The woman sees herself,The woman sees himself,0.0000
+The brother sees himself,The sister sees himself,0.0000
+The girl knows herself,The girl knows himself,0.0000
+The prince knows himself,The princess knows himself,0.0000
+The princess knows herself,The princess knows himself,0.0000
+The princess knows herself,The prince knows herself,1.0000
+The sister knows herself,The brother knows herself,1.0000
+The girl tells herself,The girl tells himself,0.0000
+The boy tells himself,The boy tells herself,1.0000
+The man tells himself,The woman tells himself,1.0000
+The sister tells herself,The brother tells herself,1.0000
+The man eats himself,The man eats herself,1.0000
+The princess eats herself,The prince eats herself,1.0000
+The mom finds herself,The dad finds herself,0.0000
+The dad finds himself,The dad finds herself,1.0000
+The girl finds herself,The girl finds himself,0.0000
+The man finds himself,The woman finds himself,1.0000
+The woman finds herself,The woman finds himself,0.0000
+The prince finds himself,The prince finds herself,1.0000
+The brother finds himself,The sister finds himself,0.0000
+The girl helps herself,The girl helps himself,0.0000
+The man helps himself,The woman helps himself,1.0000
+The dad hears himself,The dad hears herself,1.0000
+The girl hears herself,The girl hears himself,0.0000
+The boy hears himself,The girl hears himself,1.0000
+The prince hears himself,The prince hears herself,1.0000
+The sister hears herself,The sister hears himself,0.0000
+The dad loves himself,The mom loves himself,1.0000
+The boy loves himself,The boy loves herself,1.0000
+The man loves himself,The woman loves himself,1.0000
+The woman loves herself,The man loves herself,0.0000
+The sister loves herself,The brother loves herself,1.0000
+The mom throws herself,The dad throws herself,0.0000
+The dad throws himself,The dad throws herself,1.0000
+The dad throws himself,The mom throws himself,1.0000
+The boy throws himself,The girl throws himself,0.0000
+The man throws himself,The woman throws himself,1.0000
+The princess throws herself,The prince throws herself,1.0000
+The sister throws herself,The sister throws himself,0.0000
+The brother throws himself,The sister throws himself,0.0000
+The boy keeps himself,The girl keeps himself,0.0000
+The prince keeps himself,The princess keeps himself,0.0000
+The princess keeps herself,The prince keeps herself,1.0000
+The mom thanks herself,The mom thanks himself,0.0000
+The princess thanks herself,The princess thanks himself,1.0000
+The sister thanks herself,The sister thanks himself,1.0000
+The brother thanks himself,The sister thanks himself,1.0000
+The dad hurts himself,The mom hurts himself,1.0000
+The brother hurts himself,The sister hurts himself,0.0000
+The girl feels herself,The girl feels himself,1.0000
+The boy feels himself,The boy feels herself,0.0000
+The sister feels herself,The brother feels herself,1.0000
+The mom pulls herself,The dad pulls herself,0.0000
+The boy pulls himself,The girl pulls himself,0.0000
+The prince pulls himself,The prince pulls herself,1.0000
+The mom asks herself,The mom asks himself,0.0000
+The dad asks himself,The mom asks himself,1.0000
+The princess asks herself,The princess asks himself,0.0000
+The sister asks herself,The brother asks herself,0.0000
+The mom cuts herself,The mom cuts himself,1.0000
+The sister cuts herself,The sister cuts himself,1.0000
+The man washes himself,The woman washes himself,1.0000
+The sister washes herself,The sister washes himself,0.0000
+The sister washes herself,The brother washes herself,1.0000
+The brother washes himself,The brother washes herself,1.0000
+The dad draws himself,The dad draws herself,1.0000
+The brother draws himself,The sister draws himself,0.0000
+The girl hits herself,The girl hits himself,0.0000
+The girl hits herself,The boy hits herself,1.0000
+The man hits himself,The man hits herself,1.0000
+The man hits himself,The woman hits himself,1.0000
+The princess hits herself,The princess hits himself,0.0000
+The brother hits himself,The sister hits himself,0.0000
+The dad touches himself,The dad touches herself,1.0000
+The boy touches himself,The boy touches herself,1.0000
+The man touches himself,The man touches herself,1.0000
+The prince touches himself,The prince touches herself,1.0000
+The prince touches himself,The princess touches himself,0.0000
+The mom forgets herself,The dad forgets herself,0.0000
+The girl forgets herself,The girl forgets himself,1.0000
+The princess forgets herself,The prince forgets herself,1.0000
+The sister forgets herself,The brother forgets herself,1.0000
+The girl feeds herself,The girl feeds himself,0.0000
+The prince feeds himself,The prince feeds herself,1.0000
+The girl loses herself,The boy loses herself,1.0000
+The boy loses himself,The boy loses herself,1.0000
+The man loses himself,The woman loses himself,1.0000
+The princess loses herself,The prince loses herself,1.0000
+The sister loses herself,The brother loses herself,1.0000
+The brother loses himself,The brother loses herself,1.0000
+The mom hangs herself,The mom hangs himself,1.0000
+The mom hangs herself,The dad hangs herself,0.0000
+The man hangs himself,The man hangs herself,0.0000
+The mom carries herself,The mom carries himself,0.0000
+The mom carries herself,The dad carries herself,0.0000
+The prince carries himself,The prince carries herself,1.0000
+The dad excuses himself,The dad excuses herself,1.0000
+The girl excuses herself,The girl excuses himself,0.0000
+The boy excuses himself,The girl excuses himself,0.0000
+The man excuses himself,The man excuses herself,1.0000
+The sister excuses herself,The brother excuses herself,1.0000
+The boy pours himself,The boy pours herself,0.0000
+The man pours himself,The man pours herself,0.0000
+The princess pours herself,The prince pours herself,1.0000
+The dad wipes himself,The dad wipes herself,1.0000
+The man wipes himself,The woman wipes himself,1.0000
+The prince wipes himself,The prince wipes herself,0.0000
+The prince wipes himself,The princess wipes himself,0.0000
+The woman kicks herself,The man kicks herself,0.0000
+The prince kicks himself,The prince kicks herself,1.0000
+The prince kicks himself,The princess kicks himself,0.0000
+The princess kicks herself,The princess kicks himself,0.0000
+The brother kicks himself,The brother kicks herself,1.0000
+The brother kicks himself,The sister kicks himself,0.0000
+The mom smells herself,The dad smells herself,0.0000
+The brother smells himself,The sister smells himself,0.0000
+The girl understands herself,The girl understands himself,0.0000
+The girl understands herself,The boy understands herself,1.0000
+The man understands himself,The man understands herself,1.0000
+The princess understands herself,The princess understands himself,0.0000
+The sister understands herself,The brother understands herself,1.0000
+The girl kills herself,The girl kills himself,0.0000
+The girl kills herself,The boy kills herself,1.0000
+The princess kills herself,The prince kills herself,1.0000
+The sister kills herself,The sister kills himself,0.0000
+The boy hates himself,The boy hates herself,1.0000
+The woman hates herself,The man hates herself,0.0000
+The dad licks himself,The mom licks himself,1.0000
+The girl licks herself,The girl licks himself,0.0000
+The boy licks himself,The boy licks herself,1.0000
+The girl decides herself,The boy decides herself,1.0000
+The woman decides herself,The man decides herself,0.0000
+The prince decides himself,The prince decides herself,1.0000
+The man enjoys himself,The woman enjoys himself,1.0000
+The prince enjoys himself,The prince enjoys herself,1.0000
+The princess enjoys herself,The princess enjoys himself,0.0000
+The sister enjoys herself,The sister enjoys himself,0.0000
+The dad promises himself,The dad promises herself,1.0000
+The girl promises herself,The girl promises himself,1.0000
+The boy promises himself,The boy promises herself,0.0000
+The boy promises himself,The girl promises himself,1.0000
+The prince promises himself,The prince promises herself,0.0000
+The brother promises himself,The brother promises herself,0.0000
+The mom serves herself,The mom serves himself,0.0000
+The boy serves himself,The boy serves herself,1.0000
+The girl explains herself,The boy explains herself,1.0000
+The man explains himself,The man explains herself,1.0000
+The mom imagines herself,The dad imagines herself,0.0000
+The princess imagines herself,The princess imagines himself,0.0000
+The sister imagines herself,The sister imagines himself,0.0000
+The brother imagines himself,The sister imagines himself,1.0000
+The mom protects herself,The dad protects herself,0.0000
+The man protects himself,The woman protects himself,1.0000
+The princess protects herself,The princess protects himself,0.0000
+The princess protects herself,The prince protects herself,1.0000
+The sister protects herself,The brother protects herself,1.0000
+The dad destroys himself,The dad destroys herself,1.0000
+The girl destroys herself,The boy destroys herself,1.0000
+The boy destroys himself,The boy destroys herself,1.0000
+The mom encourages herself,The dad encourages herself,0.0000
+The dad encourages himself,The dad encourages herself,1.0000
+The dad encourages himself,The mom encourages himself,1.0000
+The girl encourages herself,The girl encourages himself,0.0000
+The girl encourages herself,The boy encourages herself,1.0000
+The prince encourages himself,The prince encourages herself,1.0000
+The sister encourages herself,The brother encourages herself,1.0000
+The mom burns herself,The dad burns herself,0.0000
+The girl burns herself,The girl burns himself,1.0000
+The boy burns himself,The boy burns herself,1.0000
+The woman burns herself,The woman burns himself,0.0000
+The woman burns herself,The man burns herself,0.0000
+The man stretches himself,The woman stretches himself,1.0000
+The woman stretches herself,The man stretches herself,0.0000
+The princess stretches herself,The princess stretches himself,0.0000
+The sister stretches herself,The sister stretches himself,0.0000
+The brother stretches himself,The brother stretches herself,1.0000
+The mom moves herself,The dad moves herself,0.0000
+The dad moves himself,The dad moves herself,1.0000
+The princess moves herself,The princess moves himself,0.0000
+The sister moves herself,The brother moves herself,1.0000
+The girl believes herself,The girl believes himself,0.0000
+The boy believes himself,The boy believes herself,1.0000
+The brother believes himself,The brother believes herself,1.0000
+The boy wraps himself,The girl wraps himself,0.0000
+The man wraps himself,The woman wraps himself,1.0000
+The sister wraps herself,The sister wraps himself,0.0000
+The girl invites herself,The girl invites himself,0.0000
+The man invites himself,The man invites herself,1.0000
+The prince invites himself,The princess invites himself,0.0000
+The sister invites herself,The sister invites himself,0.0000
+The brother invites himself,The sister invites himself,1.0000
+The dad saw himself,The dads saw himself,1.0000
+The girl saw herself,The girl saw themselves,0.0000
+The man saw himself,The man saw themselves,1.0000
+The men saw themselves,The men saw himself,1.0000
+The women saw themselves,The woman saw themselves,0.0000
+The prince saw himself,The princes saw himself,1.0000
+The princesses saw themselves,The princess saw themselves,1.0000
+The sister saw herself,The sisters saw herself,0.0000
+The girl knew herself,The girls knew herself,1.0000
+The boys knew themselves,The boy knew themselves,0.0000
+The woman knew herself,The woman knew themselves,0.0000
+The woman knew herself,The women knew herself,1.0000
+The princesses knew themselves,The princesses knew herself,1.0000
+The princess knew herself,The princesses knew herself,0.0000
+The princesses knew themselves,The princess knew themselves,1.0000
+The moms told themselves,The mom told themselves,1.0000
+The dad told himself,The dad told themselves,1.0000
+The girl told herself,The girl told themselves,1.0000
+The girls told themselves,The girl told themselves,0.0000
+The boy told himself,The boy told themselves,1.0000
+The women told themselves,The woman told themselves,0.0000
+The princess told herself,The princesses told herself,0.0000
+The sisters told themselves,The sisters told herself,0.0000
+The brother told himself,The brothers told himself,1.0000
+The mom ate herself,The moms ate herself,0.0000
+The girl ate herself,The girls ate herself,1.0000
+The girls ate themselves,The girl ate themselves,0.0000
+The boy ate himself,The boy ate themselves,1.0000
+The woman ate herself,The woman ate themselves,1.0000
+The prince ate himself,The prince ate themselves,1.0000
+The prince ate himself,The princes ate himself,1.0000
+The princes ate themselves,The prince ate themselves,0.0000
+The brother ate himself,The brothers ate himself,1.0000
+The dad found himself,The dads found himself,1.0000
+The girl found herself,The girl found themselves,1.0000
+The boys found themselves,The boy found themselves,1.0000
+The woman found herself,The woman found themselves,0.0000
+The women found themselves,The woman found themselves,0.0000
+The princes found themselves,The princes found himself,0.0000
+The prince found himself,The princes found himself,1.0000
+The princesses found themselves,The princess found themselves,1.0000
+The sisters found themselves,The sisters found herself,1.0000
+The sisters found themselves,The sister found themselves,1.0000
+The moms helped themselves,The mom helped themselves,1.0000
+The dads helped themselves,The dads helped himself,0.0000
+The dads helped themselves,The dad helped themselves,0.0000
+The princes helped themselves,The princes helped himself,0.0000
+The sisters helped themselves,The sisters helped herself,1.0000
+The sisters helped themselves,The sister helped themselves,1.0000
+The brothers helped themselves,The brother helped themselves,1.0000
+The girls remembered themselves,The girl remembered themselves,1.0000
+The woman remembered herself,The women remembered herself,1.0000
+The prince remembered himself,The prince remembered themselves,1.0000
+The princess remembered herself,The princesses remembered herself,0.0000
+The brothers remembered themselves,The brothers remembered himself,0.0000
+The moms heard themselves,The mom heard themselves,1.0000
+The dads heard themselves,The dads heard himself,0.0000
+The dad heard himself,The dads heard himself,1.0000
+The girls heard themselves,The girl heard themselves,0.0000
+The man heard himself,The man heard themselves,1.0000
+The prince heard himself,The prince heard themselves,1.0000
+The princes heard themselves,The princes heard himself,0.0000
+The sisters heard themselves,The sister heard themselves,1.0000
+The moms loved themselves,The moms loved herself,0.0000
+The moms loved themselves,The mom loved themselves,1.0000
+The boys loved themselves,The boy loved themselves,1.0000
+The women loved themselves,The women loved herself,0.0000
+The princess loved herself,The princesses loved herself,0.0000
+The sister loved herself,The sister loved themselves,1.0000
+The sisters loved themselves,The sisters loved herself,0.0000
+The sister loved herself,The sisters loved herself,0.0000
+The brothers loved themselves,The brothers loved himself,0.0000
+The moms threw themselves,The mom threw themselves,1.0000
+The dad threw himself,The dad threw themselves,1.0000
+The dads threw themselves,The dads threw himself,0.0000
+The girls threw themselves,The girl threw themselves,1.0000
+The women threw themselves,The women threw herself,1.0000
+The women threw themselves,The woman threw themselves,0.0000
+The prince threw himself,The prince threw themselves,1.0000
+The girls kept themselves,The girls kept herself,0.0000
+The boy kept himself,The boy kept themselves,1.0000
+The man kept himself,The men kept himself,1.0000
+The woman kept herself,The woman kept themselves,1.0000
+The princes kept themselves,The princes kept himself,0.0000
+The princess kept herself,The princesses kept herself,0.0000
+The brother kept himself,The brother kept themselves,1.0000
+The brothers kept themselves,The brother kept themselves,0.0000
+The boys thanked themselves,The boy thanked themselves,1.0000
+The princes thanked themselves,The prince thanked themselves,0.0000
+The princesses thanked themselves,The princesses thanked herself,0.0000
+The sisters thanked themselves,The sister thanked themselves,1.0000
+The dads hurt themselves,The dads hurt himself,0.0000
+The girl hurt herself,The girl hurt themselves,1.0000
+The man hurt himself,The men hurt himself,1.0000
+The princes hurt themselves,The prince hurt themselves,1.0000
+The princess hurt herself,The princess hurt themselves,1.0000
+The princesses hurt themselves,The princesses hurt herself,0.0000
+The brothers hurt themselves,The brother hurt themselves,1.0000
+The mom felt herself,The moms felt herself,0.0000
+The dad felt himself,The dad felt themselves,1.0000
+The dads felt themselves,The dad felt themselves,0.0000
+The girl felt herself,The girl felt themselves,1.0000
+The man felt himself,The men felt himself,1.0000
+The woman felt herself,The woman felt themselves,1.0000
+The princes felt themselves,The princes felt himself,0.0000
+The princess felt herself,The princesses felt herself,0.0000
+The sister felt herself,The sister felt themselves,1.0000
+The sister felt herself,The sisters felt herself,0.0000
+The brothers felt themselves,The brothers felt himself,0.0000
+The dads pulled themselves,The dad pulled themselves,0.0000
+The girl pulled herself,The girl pulled themselves,1.0000
+The women pulled themselves,The woman pulled themselves,0.0000
+The prince pulled himself,The prince pulled themselves,1.0000
+The princesses pulled themselves,The princesses pulled herself,1.0000
+The princesses pulled themselves,The princess pulled themselves,1.0000
+The brothers pulled themselves,The brother pulled themselves,1.0000
+The girl asked herself,The girls asked herself,1.0000
+The boys asked themselves,The boy asked themselves,1.0000
+The man asked himself,The man asked themselves,1.0000
+The women asked themselves,The women asked herself,0.0000
+The princes asked themselves,The prince asked themselves,0.0000
+The sister asked herself,The sister asked themselves,1.0000
+The brother asked himself,The brother asked themselves,1.0000
+The brother asked himself,The brothers asked himself,1.0000
+The brothers asked themselves,The brother asked themselves,0.0000
+The dads cut themselves,The dads cut himself,1.0000
+The girls cut themselves,The girls cut herself,1.0000
+The boy cut himself,The boy cut themselves,1.0000
+The boy cut himself,The boys cut himself,0.0000
+The woman cut herself,The woman cut themselves,0.0000
+The princess cut herself,The princesses cut herself,0.0000
+The princesses cut themselves,The princess cut themselves,1.0000
+The dad washed himself,The dads washed himself,1.0000
+The dads washed themselves,The dad washed themselves,0.0000
+The girl washed herself,The girl washed themselves,1.0000
+The women washed themselves,The women washed herself,0.0000
+The prince washed himself,The prince washed themselves,1.0000
+The princess washed herself,The princesses washed herself,0.0000
+The sister washed herself,The sister washed themselves,1.0000
+The sisters washed themselves,The sister washed themselves,1.0000
+The brothers washed themselves,The brothers washed himself,0.0000
+The brothers washed themselves,The brother washed themselves,0.0000
+The dads drew themselves,The dads drew himself,0.0000
+The girl drew herself,The girl drew themselves,0.0000
+The woman drew herself,The woman drew themselves,0.0000
+The prince drew himself,The prince drew themselves,0.0000
+The princess drew herself,The princess drew themselves,0.0000
+The princesses drew themselves,The princess drew themselves,1.0000
+The mom hit herself,The mom hit themselves,1.0000
+The men hit themselves,The men hit himself,0.0000
+The princess hit herself,The princess hit themselves,1.0000
+The princesses hit themselves,The princesses hit herself,1.0000
+The princesses hit themselves,The princess hit themselves,1.0000
+The sister hit herself,The sister hit themselves,1.0000
+The dads touched themselves,The dad touched themselves,0.0000
+The boy touched himself,The boy touched themselves,1.0000
+The men touched themselves,The men touched himself,0.0000
+The princes touched themselves,The princes touched himself,0.0000
+The dads forgot themselves,The dad forgot themselves,0.0000
+The boy forgot himself,The boy forgot themselves,1.0000
+The boys forgot themselves,The boys forgot himself,0.0000
+The boys forgot themselves,The boy forgot themselves,1.0000
+The men forgot themselves,The men forgot himself,0.0000
+The man forgot himself,The men forgot himself,1.0000
+The prince forgot himself,The prince forgot themselves,1.0000
+The princes forgot themselves,The princes forgot himself,0.0000
+The sisters forgot themselves,The sisters forgot herself,0.0000
+The sister forgot herself,The sisters forgot herself,0.0000
+The brother forgot himself,The brothers forgot himself,1.0000
+The dad fed himself,The dad fed themselves,1.0000
+The dads fed themselves,The dads fed himself,0.0000
+The man fed himself,The men fed himself,1.0000
+The sister fed herself,The sisters fed herself,0.0000
+The brother fed himself,The brother fed themselves,1.0000
+The brothers fed themselves,The brothers fed himself,0.0000
+The brothers fed themselves,The brother fed themselves,1.0000
+The moms lost themselves,The mom lost themselves,1.0000
+The girls lost themselves,The girl lost themselves,1.0000
+The boy lost himself,The boys lost himself,1.0000
+The dad hung himself,The dad hung themselves,1.0000
+The boy hung himself,The boys hung himself,1.0000
+The man hung himself,The man hung themselves,1.0000
+The woman hung herself,The women hung herself,1.0000
+The princes hung themselves,The princes hung himself,0.0000
+The prince hung himself,The princes hung himself,1.0000
+The princess hung herself,The princess hung themselves,0.0000
+The sisters hung themselves,The sister hung themselves,1.0000
+The mom carried herself,The moms carried herself,0.0000
+The girls carried themselves,The girl carried themselves,1.0000
+The boys carried themselves,The boys carried himself,0.0000
+The boy carried himself,The boys carried himself,1.0000
+The boys carried themselves,The boy carried themselves,1.0000
+The men carried themselves,The man carried themselves,0.0000
+The woman carried herself,The woman carried themselves,0.0000
+The prince carried himself,The princes carried himself,1.0000
+The princes carried themselves,The prince carried themselves,0.0000
+The princess carried herself,The princess carried themselves,0.0000
+The brother carried himself,The brothers carried himself,1.0000
+The girl excused herself,The girl excused themselves,1.0000
+The brother excused himself,The brother excused themselves,1.0000
+The brother excused himself,The brothers excused himself,1.0000
+The mom poured herself,The mom poured themselves,1.0000
+The dad poured himself,The dad poured themselves,1.0000
+The girls poured themselves,The girl poured themselves,1.0000
+The boy poured himself,The boy poured themselves,1.0000
+The princesses poured themselves,The princesses poured herself,1.0000
+The dad wiped himself,The dad wiped themselves,1.0000
+The boy wiped himself,The boy wiped themselves,1.0000
+The men wiped themselves,The men wiped himself,0.0000
+The princess wiped herself,The princess wiped themselves,0.0000
+The princesses wiped themselves,The princess wiped themselves,1.0000
+The sisters wiped themselves,The sisters wiped herself,1.0000
+The sister wiped herself,The sisters wiped herself,0.0000
+The brothers wiped themselves,The brother wiped themselves,0.0000
+The mom kicked herself,The moms kicked herself,0.0000
+The girls kicked themselves,The girls kicked herself,1.0000
+The princesses kicked themselves,The princess kicked themselves,1.0000
+The mom smelled herself,The moms smelled herself,0.0000
+The dads smelled themselves,The dad smelled themselves,0.0000
+The boys smelled themselves,The boys smelled himself,0.0000
+The man smelled himself,The man smelled themselves,1.0000
+The man smelled himself,The men smelled himself,1.0000
+The brother smelled himself,The brother smelled themselves,1.0000
+The mom understood herself,The mom understood themselves,1.0000
+The dad understood himself,The dads understood himself,1.0000
+The dads understood themselves,The dad understood themselves,0.0000
+The girl understood herself,The girl understood themselves,1.0000
+The boys understood themselves,The boy understood themselves,1.0000
+The man understood himself,The men understood himself,1.0000
+The women understood themselves,The women understood herself,1.0000
+The woman understood herself,The women understood herself,1.0000
+The princes understood themselves,The princes understood himself,0.0000
+The sister understood herself,The sisters understood herself,0.0000
+The mom killed herself,The moms killed herself,0.0000
+The boy killed himself,The boys killed himself,1.0000
+The princes killed themselves,The prince killed themselves,0.0000
+The princesses killed themselves,The princesses killed herself,1.0000
+The sisters killed themselves,The sisters killed herself,1.0000
+The mom hated herself,The moms hated herself,0.0000
+The dads hated themselves,The dad hated themselves,0.0000
+The girls hated themselves,The girls hated herself,0.0000
+The girl hated herself,The girls hated herself,1.0000
+The boy hated himself,The boy hated themselves,1.0000
+The boys hated themselves,The boy hated themselves,1.0000
+The women hated themselves,The woman hated themselves,0.0000
+The princess hated herself,The princess hated themselves,1.0000
+The sister hated herself,The sisters hated herself,0.0000
+The sisters hated themselves,The sister hated themselves,1.0000
+The brother hated himself,The brother hated themselves,1.0000
+The mom licked herself,The mom licked themselves,1.0000
+The boy licked himself,The boys licked himself,1.0000
+The woman licked herself,The women licked herself,1.0000
+The prince licked himself,The prince licked themselves,1.0000
+The princesses licked themselves,The princess licked themselves,1.0000
+The sisters licked themselves,The sister licked themselves,1.0000
+The moms decided themselves,The mom decided themselves,1.0000
+The girls decided themselves,The girl decided themselves,1.0000
+The boy decided himself,The boy decided themselves,1.0000
+The boys decided themselves,The boys decided himself,0.0000
+The boys decided themselves,The boy decided themselves,1.0000
+The man decided himself,The man decided themselves,1.0000
+The men decided themselves,The men decided himself,0.0000
+The women decided themselves,The women decided herself,1.0000
+The woman decided herself,The women decided herself,1.0000
+The women decided themselves,The woman decided themselves,0.0000
+The prince decided himself,The prince decided themselves,1.0000
+The princes decided themselves,The princes decided himself,0.0000
+The prince decided himself,The princes decided himself,1.0000
+The princes decided themselves,The prince decided themselves,0.0000
+The sister decided herself,The sister decided themselves,0.0000
+The sister decided herself,The sisters decided herself,0.0000
+The brothers decided themselves,The brothers decided himself,0.0000
+The brother decided himself,The brothers decided himself,1.0000
+The moms enjoyed themselves,The mom enjoyed themselves,1.0000
+The dads enjoyed themselves,The dads enjoyed himself,0.0000
+The dads enjoyed themselves,The dad enjoyed themselves,0.0000
+The girl enjoyed herself,The girls enjoyed herself,1.0000
+The boys enjoyed themselves,The boys enjoyed himself,0.0000
+The man enjoyed himself,The men enjoyed himself,1.0000
+The men enjoyed themselves,The man enjoyed themselves,0.0000
+The woman enjoyed herself,The woman enjoyed themselves,0.0000
+The women enjoyed themselves,The woman enjoyed themselves,0.0000
+The princes enjoyed themselves,The princes enjoyed himself,0.0000
+The princesses enjoyed themselves,The princesses enjoyed herself,1.0000
+The princesses enjoyed themselves,The princess enjoyed themselves,1.0000
+The brothers enjoyed themselves,The brother enjoyed themselves,1.0000
+The mom promised herself,The mom promised themselves,0.0000
+The mom promised herself,The moms promised herself,0.0000
+The girl promised herself,The girls promised herself,1.0000
+The boy promised himself,The boys promised himself,1.0000
+The woman promised herself,The woman promised themselves,0.0000
+The women promised themselves,The women promised herself,1.0000
+The princes promised themselves,The prince promised themselves,0.0000
+The princesses promised themselves,The princess promised themselves,1.0000
+The moms served themselves,The mom served themselves,1.0000
+The dads served themselves,The dads served himself,0.0000
+The dad served himself,The dads served himself,1.0000
+The girl served herself,The girls served herself,1.0000
+The boys served themselves,The boys served himself,0.0000
+The men served themselves,The man served themselves,0.0000
+The princes served themselves,The princes served himself,0.0000
+The princess served herself,The princess served themselves,1.0000
+The sister served herself,The sisters served herself,0.0000
+The mom explained herself,The mom explained themselves,1.0000
+The dad explained himself,The dads explained himself,1.0000
+The girls explained themselves,The girls explained herself,0.0000
+The women explained themselves,The women explained herself,0.0000
+The prince explained himself,The prince explained themselves,1.0000
+The princes explained themselves,The prince explained themselves,0.0000
+The sister explained herself,The sisters explained herself,0.0000
+The dad imagined himself,The dads imagined himself,1.0000
+The girl imagined herself,The girl imagined themselves,1.0000
+The girl imagined herself,The girls imagined herself,0.0000
+The princesses imagined themselves,The princesses imagined herself,1.0000
+The princesses imagined themselves,The princess imagined themselves,1.0000
+The sisters imagined themselves,The sisters imagined herself,1.0000
+The dads protected themselves,The dads protected himself,0.0000
+The dads protected themselves,The dad protected themselves,0.0000
+The girls protected themselves,The girl protected themselves,1.0000
+The boy protected himself,The boys protected himself,0.0000
+The women protected themselves,The woman protected themselves,0.0000
+The princes protected themselves,The princes protected himself,0.0000
+The sister protected herself,The sister protected themselves,1.0000
+The brothers protected themselves,The brother protected themselves,1.0000
+The dad destroyed himself,The dad destroyed themselves,1.0000
+The dad destroyed himself,The dads destroyed himself,1.0000
+The dads destroyed themselves,The dad destroyed themselves,0.0000
+The girl destroyed herself,The girl destroyed themselves,1.0000
+The men destroyed themselves,The man destroyed themselves,0.0000
+The sister destroyed herself,The sister destroyed themselves,1.0000
+The sister destroyed herself,The sisters destroyed herself,0.0000
+The brothers destroyed themselves,The brother destroyed themselves,1.0000
+The mom encouraged herself,The mom encouraged themselves,1.0000
+The girl encouraged herself,The girl encouraged themselves,1.0000
+The girls encouraged themselves,The girls encouraged herself,1.0000
+The boys encouraged themselves,The boys encouraged himself,0.0000
+The boy encouraged himself,The boys encouraged himself,0.0000
+The princesses encouraged themselves,The princess encouraged themselves,1.0000
+The girls burned themselves,The girls burned herself,0.0000
+The girl burned herself,The girls burned herself,1.0000
+The boys burned themselves,The boy burned themselves,1.0000
+The man burned himself,The men burned himself,1.0000
+The men burned themselves,The man burned themselves,0.0000
+The sisters burned themselves,The sisters burned herself,0.0000
+The brother burned himself,The brother burned themselves,1.0000
+The brothers burned themselves,The brother burned themselves,1.0000
+The mom stretched herself,The mom stretched themselves,1.0000
+The girls stretched themselves,The girl stretched themselves,1.0000
+The boy stretched himself,The boy stretched themselves,1.0000
+The prince stretched himself,The prince stretched themselves,1.0000
+The princesses stretched themselves,The princesses stretched herself,0.0000
+The sisters stretched themselves,The sisters stretched herself,0.0000
+The sister stretched herself,The sisters stretched herself,0.0000
+The brothers stretched themselves,The brothers stretched himself,0.0000
+The moms moved themselves,The moms moved herself,1.0000
+The dads moved themselves,The dads moved himself,0.0000
+The girl moved herself,The girl moved themselves,1.0000
+The boys moved themselves,The boy moved themselves,1.0000
+The men moved themselves,The men moved himself,1.0000
+The women moved themselves,The woman moved themselves,0.0000
+The prince moved himself,The prince moved themselves,1.0000
+The princes moved themselves,The princes moved himself,0.0000
+The mom believed herself,The moms believed herself,0.0000
+The dads believed themselves,The dads believed himself,0.0000
+The dads believed themselves,The dad believed themselves,0.0000
+The boys believed themselves,The boy believed themselves,1.0000
+The princess believed herself,The princess believed themselves,1.0000
+The brothers believed themselves,The brother believed themselves,1.0000
+The mom wrapped herself,The mom wrapped themselves,1.0000
+The mom wrapped herself,The moms wrapped herself,0.0000
+The dad wrapped himself,The dad wrapped themselves,1.0000
+The dads wrapped themselves,The dad wrapped themselves,0.0000
+The girl wrapped herself,The girl wrapped themselves,1.0000
+The girls wrapped themselves,The girls wrapped herself,1.0000
+The boy wrapped himself,The boy wrapped themselves,1.0000
+The man wrapped himself,The men wrapped himself,1.0000
+The woman wrapped herself,The woman wrapped themselves,0.0000
+The women wrapped themselves,The women wrapped herself,1.0000
+The woman wrapped herself,The women wrapped herself,1.0000
+The women wrapped themselves,The woman wrapped themselves,0.0000
+The prince wrapped himself,The prince wrapped themselves,1.0000
+The princes wrapped themselves,The prince wrapped themselves,0.0000
+The princess wrapped herself,The princesses wrapped herself,0.0000
+The dad invited himself,The dads invited himself,1.0000
+The girl invited herself,The girls invited herself,1.0000
+The boy invited himself,The boys invited himself,1.0000
+The woman invited herself,The women invited herself,1.0000
+The sisters invited themselves,The sisters invited herself,1.0000
+The sisters invited themselves,The sister invited themselves,1.0000
+Many good dads,Many good dad,0.0000
+Each good girl,Each good girls,1.0000
+Each good woman,Each good women,1.0000
+Each good prince,Many good prince,0.0000
+Many good brothers,Many good brother,1.0000
+Each little dad,Many little dad,0.0000
+Many little girls,Many little girl,1.0000
+Many little boys,Many little boy,1.0000
+Many little women,Many little woman,1.0000
+Many little princes,Many little prince,1.0000
+Many big moms,Each big moms,1.0000
+Many big moms,Many big mom,1.0000
+Each big girl,Each big girls,0.0000
+Many big boys,Each big boys,1.0000
+Many big men,Each big men,1.0000
+Many big sisters,Each big sisters,1.0000
+Each big brother,Many big brother,0.0000
+Each nice boy,Each nice boys,0.0000
+Each nice man,Many nice man,0.0000
+Many nice men,Many nice man,1.0000
+Many nice princes,Each nice princes,1.0000
+Each nice princess,Many nice princess,0.0000
+Many nice sisters,Each nice sisters,1.0000
+Each new mom,Many new mom,0.0000
+Many new moms,Each new moms,1.0000
+Each new dad,Many new dad,0.0000
+Each new girl,Many new girl,0.0000
+Many new girls,Each new girls,1.0000
+Each new girl,Each new girls,0.0000
+Many new boys,Each new boys,1.0000
+Each new boy,Each new boys,0.0000
+Many new princes,Each new princes,1.0000
+Many new princesses,Many new princess,1.0000
+Each new sister,Each new sisters,0.0000
+Each hot mom,Each hot moms,0.0000
+Each hot dad,Many hot dad,0.0000
+Many hot girls,Many hot girl,1.0000
+Each hot man,Many hot man,0.0000
+Each hot man,Each hot men,1.0000
+Many hot men,Many hot man,1.0000
+Each hot woman,Many hot woman,0.0000
+Each hot woman,Each hot women,0.0000
+Each hot prince,Each hot princes,0.0000
+Each hot sister,Many hot sister,0.0000
+Each hungry girl,Many hungry girl,0.0000
+Many hungry girls,Each hungry girls,1.0000
+Many hungry girls,Many hungry girl,1.0000
+Many hungry boys,Many hungry boy,1.0000
+Many hungry men,Each hungry men,1.0000
+Each hungry woman,Each hungry women,1.0000
+Each hungry prince,Many hungry prince,0.0000
+Many hungry princesses,Many hungry princess,1.0000
+Many hungry sisters,Each hungry sisters,1.0000
+Many hungry sisters,Many hungry sister,1.0000
+Many old moms,Each old moms,1.0000
+Each old mom,Each old moms,0.0000
+Many old moms,Many old mom,1.0000
+Many old dads,Each old dads,1.0000
+Each old dad,Each old dads,1.0000
+Many old girls,Each old girls,1.0000
+Each old girl,Each old girls,0.0000
+Many old boys,Each old boys,1.0000
+Many old princesses,Many old princess,1.0000
+Many old sisters,Each old sisters,1.0000
+Each old brother,Each old brothers,0.0000
+Many bad moms,Each bad moms,1.0000
+Each bad mom,Each bad moms,0.0000
+Many bad moms,Many bad mom,1.0000
+Each bad dad,Each bad dads,1.0000
+Many bad girls,Many bad girl,1.0000
+Each bad man,Each bad men,0.0000
+Many bad men,Many bad man,1.0000
+Many bad women,Each bad women,1.0000
+Each bad woman,Each bad women,1.0000
+Each bad prince,Many bad prince,0.0000
+Each bad princess,Many bad princess,0.0000
+Each bad brother,Each bad brothers,0.0000
+Each great mom,Many great mom,0.0000
+Many great moms,Many great mom,1.0000
+Many great dads,Each great dads,1.0000
+Each great dad,Each great dads,1.0000
+Each great man,Each great men,0.0000
+Each great woman,Each great women,0.0000
+Each great prince,Many great prince,0.0000
+Each great princess,Many great princess,0.0000
+Each great princess,Each great princesses,0.0000
+Each great sister,Each great sisters,0.0000
+Each different mom,Many different mom,0.0000
+Each different mom,Each different moms,0.0000
+Each different dad,Many different dad,0.0000
+Many different dads,Each different dads,1.0000
+Many different dads,Many different dad,0.0000
+Each different girl,Each different girls,0.0000
+Each different boy,Many different boy,0.0000
+Many different boys,Each different boys,1.0000
+Many different men,Each different men,1.0000
+Each different man,Each different men,0.0000
+Each different woman,Each different women,1.0000
+Many different princes,Each different princes,1.0000
+Each different princess,Each different princesses,0.0000
+Many different brothers,Each different brothers,1.0000
+Each same mom,Many same mom,0.0000
+Many same moms,Each same moms,1.0000
+Each same boy,Each same boys,1.0000
+Each same man,Each same men,0.0000
+Each same princess,Many same princess,0.0000
+Each same sister,Many same sister,1.0000
+Each same brother,Many same brother,1.0000
+Each happy dad,Each happy dads,1.0000
+Many happy dads,Many happy dad,0.0000
+Each happy boy,Each happy boys,1.0000
+Many happy women,Many happy woman,1.0000
+Many happy princesses,Each happy princesses,1.0000
+Each happy princess,Each happy princesses,0.0000
+Many happy sisters,Each happy sisters,1.0000
+Each happy sister,Each happy sisters,0.0000
+Each happy brother,Each happy brothers,1.0000
+Many small moms,Many small mom,1.0000
+Many small dads,Each small dads,1.0000
+Many small princes,Each small princes,1.0000
+Each small prince,Each small princes,0.0000
+Many small princesses,Many small princess,1.0000
+Many small brothers,Each small brothers,1.0000
+Each wet mom,Each wet moms,0.0000
+Many wet dads,Each wet dads,1.0000
+Many wet girls,Each wet girls,1.0000
+Each wet man,Many wet man,0.0000
+Each wet princess,Many wet princess,0.0000
+Many wet princesses,Each wet princesses,1.0000
+Each wet sister,Each wet sisters,0.0000
+Each wet brother,Many wet brother,0.0000
+Many wet brothers,Each wet brothers,1.0000
+Many cute moms,Many cute mom,1.0000
+Many cute dads,Many cute dad,0.0000
+Many cute men,Many cute man,1.0000
+Each cute princess,Many cute princess,0.0000
+Many cute princesses,Each cute princesses,1.0000
+Many cute sisters,Many cute sister,1.0000
+Each beautiful dad,Many beautiful dad,0.0000
+Many beautiful girls,Each beautiful girls,1.0000
+Each beautiful woman,Many beautiful woman,0.0000
+Each beautiful princess,Many beautiful princess,0.0000
+Many beautiful princesses,Many beautiful princess,1.0000
+Each beautiful sister,Many beautiful sister,0.0000
+Each beautiful brother,Each beautiful brothers,0.0000
+Each tiny boy,Each tiny boys,0.0000
+Each tiny man,Each tiny men,1.0000
+Each tiny woman,Many tiny woman,0.0000
+Each tiny woman,Each tiny women,1.0000
+Each tiny princess,Many tiny princess,0.0000
+Many tiny princesses,Each tiny princesses,1.0000
+Each tiny princess,Each tiny princesses,0.0000
+Each tiny brother,Each tiny brothers,1.0000
+Many sick girls,Many sick girl,1.0000
+Many sick boys,Each sick boys,1.0000
+Each sick prince,Many sick prince,0.0000
+Many sick princes,Many sick prince,1.0000
+Many sick brothers,Each sick brothers,1.0000
+Each soft mom,Many soft mom,0.0000
+Many soft moms,Many soft mom,1.0000
+Each soft dad,Many soft dad,0.0000
+Many soft girls,Many soft girl,1.0000
+Each soft prince,Each soft princes,0.0000
+Each soft princess,Each soft princesses,0.0000
+Each soft brother,Each soft brothers,1.0000
+Many soft brothers,Many soft brother,1.0000
+Each heavy mom,Each heavy moms,0.0000
+Each heavy boy,Each heavy boys,0.0000
+Each heavy prince,Many heavy prince,0.0000
+Each heavy prince,Each heavy princes,0.0000
+Many heavy princes,Many heavy prince,1.0000
+Many heavy sisters,Each heavy sisters,1.0000
+Each heavy sister,Each heavy sisters,0.0000
+Many heavy brothers,Each heavy brothers,1.0000
+Each neat mom,Each neat moms,0.0000
+Each neat girl,Each neat girls,1.0000
+Many neat boys,Each neat boys,1.0000
+Many neat boys,Many neat boy,1.0000
+Many neat men,Each neat men,1.0000
+Many neat sisters,Many neat sister,1.0000
+Many poor boys,Many poor boy,1.0000
+Many poor women,Each poor women,1.0000
+Each poor princess,Many poor princess,0.0000
+Each poor sister,Many poor sister,0.0000
+Each poor brother,Each poor brothers,1.0000
+Many poor brothers,Many poor brother,1.0000
+Each sad dad,Many sad dad,0.0000
+Many sad dads,Each sad dads,1.0000
+Each sad boy,Many sad boy,0.0000
+Many sad boys,Each sad boys,1.0000
+Each sad man,Many sad man,0.0000
+Many sad women,Each sad women,1.0000
+Each sad prince,Many sad prince,0.0000
+Many sad princesses,Each sad princesses,1.0000
+Each sad princess,Each sad princesses,0.0000
+Many tall dads,Each tall dads,1.0000
+Each tall girl,Many tall girl,0.0000
+Many tall girls,Each tall girls,1.0000
+Many tall boys,Each tall boys,1.0000
+Many tall men,Each tall men,1.0000
+Each tall man,Each tall men,1.0000
+Each tall woman,Many tall woman,0.0000
+Each tall woman,Each tall women,1.0000
+Each tall prince,Each tall princes,0.0000
+Many tall princes,Many tall prince,1.0000
+Each tall princess,Each tall princesses,0.0000
+Many tall princesses,Many tall princess,1.0000
+Many tall sisters,Each tall sisters,1.0000
+Each tall sister,Each tall sisters,0.0000
+The moms see the dad,The moms sees the dad,1.0000
+The mom sees the dad,The moms sees the dad,1.0000
+The mom sees the boy,The mom see the boy,1.0000
+The moms see the boy,The moms sees the boy,1.0000
+The mom sees the man,The moms sees the man,1.0000
+The mom sees the woman,The mom see the woman,1.0000
+The moms see the woman,The moms sees the woman,1.0000
+The moms see the prince,The moms sees the prince,1.0000
+The dad sees the boy,The dads sees the boy,1.0000
+The dads see the boy,The dad see the boy,0.0000
+The dads see the man,The dads sees the man,1.0000
+The dads see the man,The dad see the man,0.0000
+The dad sees the prince,The dad see the prince,1.0000
+The dad sees the prince,The dads sees the prince,1.0000
+The dad sees the brother,The dad see the brother,1.0000
+The girls see the mom,The girls sees the mom,1.0000
+The girls see the dad,The girls sees the dad,1.0000
+The girl sees the dad,The girls sees the dad,1.0000
+The girl sees the boy,The girl see the boy,0.0000
+The girl sees the man,The girl see the man,0.0000
+The girls see the man,The girls sees the man,1.0000
+The girl sees the man,The girls sees the man,1.0000
+The girl sees the woman,The girl see the woman,1.0000
+The girls see the woman,The girls sees the woman,1.0000
+The girls see the prince,The girls sees the prince,1.0000
+The girl sees the prince,The girls sees the prince,1.0000
+The girls see the sister,The girl see the sister,1.0000
+The girl sees the brother,The girl see the brother,1.0000
+The girl sees the brother,The girls sees the brother,1.0000
+The boy sees the mom,The boy see the mom,0.0000
+The boys see the girl,The boys sees the girl,1.0000
+The boys see the man,The boys sees the man,1.0000
+The boy sees the woman,The boy see the woman,0.0000
+The boys see the sister,The boy see the sister,1.0000
+The boy sees the brother,The boys sees the brother,1.0000
+The man sees the mom,The men sees the mom,1.0000
+The men see the woman,The men sees the woman,1.0000
+The men see the princess,The man see the princess,0.0000
+The man sees the sister,The man see the sister,0.0000
+The men see the sister,The men sees the sister,1.0000
+The man sees the brother,The man see the brother,0.0000
+The women see the mom,The women sees the mom,1.0000
+The woman sees the dad,The woman see the dad,1.0000
+The women see the dad,The woman see the dad,0.0000
+The woman sees the girl,The women sees the girl,1.0000
+The woman sees the boy,The women sees the boy,1.0000
+The woman sees the man,The women sees the man,1.0000
+The women see the brother,The women sees the brother,1.0000
+The princes see the mom,The prince see the mom,1.0000
+The princes see the girl,The prince see the girl,1.0000
+The princes see the woman,The princes sees the woman,1.0000
+The prince sees the woman,The princes sees the woman,1.0000
+The prince sees the sister,The prince see the sister,1.0000
+The princess sees the mom,The princess see the mom,0.0000
+The princesses see the dad,The princesses sees the dad,1.0000
+The princesses see the dad,The princess see the dad,1.0000
+The princess sees the girl,The princess see the girl,0.0000
+The princesses see the man,The princesses sees the man,1.0000
+The princess sees the woman,The princess see the woman,0.0000
+The princesses see the woman,The princesses sees the woman,1.0000
+The princess sees the sister,The princess see the sister,0.0000
+The princess sees the brother,The princesses sees the brother,0.0000
+The princesses see the brother,The princess see the brother,1.0000
+The sister sees the girl,The sisters sees the girl,0.0000
+The sisters see the man,The sisters sees the man,1.0000
+The sister sees the woman,The sisters sees the woman,0.0000
+The sister sees the prince,The sister see the prince,1.0000
+The sister sees the prince,The sisters sees the prince,0.0000
+The sisters see the brother,The sisters sees the brother,1.0000
+The brothers see the dad,The brother see the dad,1.0000
+The brothers see the boy,The brothers sees the boy,1.0000
+The brother sees the boy,The brothers sees the boy,1.0000
+The brothers see the man,The brothers sees the man,1.0000
+The brothers see the prince,The brothers sees the prince,1.0000
+The brothers see the princess,The brother see the princess,1.0000
+The moms know the man,The moms knows the man,1.0000
+The mom knows the princess,The mom know the princess,1.0000
+The moms know the sister,The moms knows the sister,1.0000
+The moms know the brother,The mom know the brother,1.0000
+The dads know the mom,The dads knows the mom,1.0000
+The dads know the girl,The dads knows the girl,1.0000
+The dad knows the girl,The dads knows the girl,1.0000
+The dad knows the boy,The dad know the boy,1.0000
+The dads know the boy,The dad know the boy,0.0000
+The dad knows the man,The dads knows the man,1.0000
+The dad knows the woman,The dad know the woman,1.0000
+The dads know the princess,The dad know the princess,0.0000
+The dad knows the sister,The dad know the sister,1.0000
+The dad knows the sister,The dads knows the sister,1.0000
+The dad knows the brother,The dad know the brother,1.0000
+The dad knows the brother,The dads knows the brother,1.0000
+The girls know the mom,The girl know the mom,1.0000
+The girl knows the boy,The girl know the boy,1.0000
+The girl knows the man,The girls knows the man,1.0000
+The girls know the man,The girl know the man,1.0000
+The girls know the woman,The girls knows the woman,1.0000
+The girl knows the prince,The girl know the prince,1.0000
+The girls know the prince,The girls knows the prince,1.0000
+The girls know the prince,The girl know the prince,1.0000
+The girl knows the princess,The girls knows the princess,1.0000
+The girl knows the sister,The girl know the sister,1.0000
+The girl knows the brother,The girl know the brother,1.0000
+The girls know the brother,The girl know the brother,1.0000
+The boys know the mom,The boy know the mom,1.0000
+The boy knows the dad,The boys knows the dad,1.0000
+The boys know the dad,The boy know the dad,1.0000
+The boy knows the man,The boy know the man,1.0000
+The boys know the man,The boys knows the man,1.0000
+The boy knows the woman,The boy know the woman,1.0000
+The boys know the prince,The boys knows the prince,1.0000
+The boys know the prince,The boy know the prince,1.0000
+The boy knows the princess,The boy know the princess,1.0000
+The boys know the princess,The boy know the princess,1.0000
+The boys know the sister,The boys knows the sister,1.0000
+The boy knows the brother,The boy know the brother,1.0000
+The man knows the girl,The man know the girl,1.0000
+The men know the girl,The men knows the girl,1.0000
+The men know the girl,The man know the girl,0.0000
+The men know the boy,The man know the boy,0.0000
+The men know the woman,The men knows the woman,1.0000
+The man knows the woman,The men knows the woman,1.0000
+The men know the princess,The men knows the princess,1.0000
+The women know the dad,The woman know the dad,0.0000
+The woman knows the girl,The woman know the girl,1.0000
+The women know the girl,The women knows the girl,1.0000
+The woman knows the man,The woman know the man,1.0000
+The women know the princess,The women knows the princess,0.0000
+The women know the sister,The women knows the sister,0.0000
+The woman knows the sister,The women knows the sister,1.0000
+The prince knows the mom,The prince know the mom,1.0000
+The princes know the dad,The princes knows the dad,1.0000
+The prince knows the boy,The princes knows the boy,1.0000
+The prince knows the man,The prince know the man,1.0000
+The prince knows the man,The princes knows the man,1.0000
+The princes know the princess,The princes knows the princess,1.0000
+The princes know the brother,The princes knows the brother,0.0000
+The prince knows the brother,The princes knows the brother,1.0000
+The princesses know the mom,The princess know the mom,1.0000
+The princesses know the dad,The princesses knows the dad,1.0000
+The princess knows the girl,The princesses knows the girl,0.0000
+The princess knows the man,The princesses knows the man,0.0000
+The princesses know the woman,The princesses knows the woman,1.0000
+The princesses know the prince,The princesses knows the prince,1.0000
+The princess knows the prince,The princesses knows the prince,0.0000
+The sister knows the mom,The sisters knows the mom,0.0000
+The sisters know the dad,The sisters knows the dad,0.0000
+The sister knows the girl,The sister know the girl,1.0000
+The sister knows the boy,The sisters knows the boy,0.0000
+The sisters know the woman,The sisters knows the woman,0.0000
+The sisters know the woman,The sister know the woman,1.0000
+The sisters know the prince,The sisters knows the prince,0.0000
+The sisters know the prince,The sister know the prince,1.0000
+The sisters know the princess,The sisters knows the princess,0.0000
+The sisters know the princess,The sister know the princess,1.0000
+The brothers know the dad,The brother know the dad,1.0000
+The brother knows the girl,The brothers knows the girl,1.0000
+The brothers know the girl,The brother know the girl,0.0000
+The brothers know the man,The brothers knows the man,1.0000
+The brothers know the man,The brother know the man,1.0000
+The brothers know the prince,The brothers knows the prince,1.0000
+The mom needs the man,The mom need the man,1.0000
+The mom needs the woman,The mom need the woman,1.0000
+The moms need the woman,The moms needs the woman,1.0000
+The moms need the woman,The mom need the woman,1.0000
+The mom needs the brother,The mom need the brother,1.0000
+The moms need the brother,The moms needs the brother,1.0000
+The dads need the boy,The dads needs the boy,1.0000
+The dad needs the boy,The dads needs the boy,1.0000
+The dads need the woman,The dad need the woman,0.0000
+The dad needs the prince,The dad need the prince,1.0000
+The dads need the princess,The dads needs the princess,1.0000
+The dad needs the princess,The dads needs the princess,1.0000
+The dads need the sister,The dad need the sister,0.0000
+The girl needs the mom,The girl need the mom,1.0000
+The girl needs the mom,The girls needs the mom,1.0000
+The girls need the dad,The girls needs the dad,1.0000
+The girl needs the dad,The girls needs the dad,1.0000
+The girls need the boy,The girl need the boy,1.0000
+The girl needs the prince,The girl need the prince,1.0000
+The girls need the prince,The girl need the prince,1.0000
+The girls need the princess,The girls needs the princess,1.0000
+The girls need the princess,The girl need the princess,1.0000
+The boys need the mom,The boys needs the mom,1.0000
+The boy needs the girl,The boy need the girl,1.0000
+The boy needs the man,The boys needs the man,1.0000
+The boy needs the prince,The boy need the prince,1.0000
+The boy needs the princess,The boys needs the princess,1.0000
+The boys need the sister,The boy need the sister,1.0000
+The men need the girl,The man need the girl,1.0000
+The man needs the woman,The man need the woman,1.0000
+The men need the woman,The man need the woman,1.0000
+The man needs the prince,The man need the prince,1.0000
+The women need the mom,The woman need the mom,0.0000
+The women need the boy,The women needs the boy,0.0000
+The women need the man,The woman need the man,0.0000
+The women need the princess,The women needs the princess,0.0000
+The woman needs the brother,The woman need the brother,1.0000
+The princes need the mom,The princes needs the mom,0.0000
+The princes need the boy,The princes needs the boy,0.0000
+The princes need the man,The princes needs the man,0.0000
+The prince needs the princess,The prince need the princess,1.0000
+The princes need the princess,The princes needs the princess,0.0000
+The prince needs the princess,The princes needs the princess,1.0000
+The prince needs the sister,The prince need the sister,1.0000
+The princes need the sister,The princes needs the sister,0.0000
+The prince needs the brother,The prince need the brother,1.0000
+The princess needs the girl,The princess need the girl,1.0000
+The princess needs the boy,The princess need the boy,1.0000
+The princess needs the prince,The princesses needs the prince,0.0000
+The princess needs the sister,The princess need the sister,1.0000
+The princess needs the brother,The princess need the brother,1.0000
+The princesses need the brother,The princess need the brother,1.0000
+The sisters need the mom,The sisters needs the mom,0.0000
+The sister needs the mom,The sisters needs the mom,0.0000
+The sister needs the dad,The sisters needs the dad,0.0000
+The sisters need the girl,The sisters needs the girl,0.0000
+The sisters need the woman,The sisters needs the woman,0.0000
+The sisters need the woman,The sister need the woman,1.0000
+The sisters need the prince,The sister need the prince,1.0000
+The brothers need the boy,The brothers needs the boy,1.0000
+The brother needs the princess,The brother need the princess,1.0000
+The mom finds the dad,The mom find the dad,1.0000
+The mom finds the boy,The mom find the boy,0.0000
+The mom finds the woman,The mom find the woman,1.0000
+The mom finds the prince,The moms finds the prince,0.0000
+The mom finds the princess,The mom find the princess,1.0000
+The moms find the princess,The moms finds the princess,1.0000
+The mom finds the princess,The moms finds the princess,0.0000
+The moms find the princess,The mom find the princess,1.0000
+The mom finds the sister,The moms finds the sister,0.0000
+The moms find the brother,The mom find the brother,1.0000
+The dad finds the mom,The dad find the mom,0.0000
+The dad finds the girl,The dad find the girl,0.0000
+The dad finds the boy,The dads finds the boy,1.0000
+The dad finds the prince,The dads finds the prince,1.0000
+The dad finds the princess,The dad find the princess,1.0000
+The girl finds the mom,The girls finds the mom,1.0000
+The girls find the dad,The girl find the dad,1.0000
+The girl finds the boy,The girls finds the boy,1.0000
+The girl finds the woman,The girl find the woman,1.0000
+The girls find the woman,The girl find the woman,1.0000
+The girls find the prince,The girls finds the prince,1.0000
+The boys find the mom,The boy find the mom,1.0000
+The boy finds the dad,The boy find the dad,0.0000
+The boys find the man,The boy find the man,1.0000
+The boy finds the prince,The boy find the prince,0.0000
+The boys find the princess,The boys finds the princess,1.0000
+The boy finds the sister,The boy find the sister,0.0000
+The boys find the sister,The boy find the sister,1.0000
+The boys find the brother,The boy find the brother,1.0000
+The man finds the mom,The man find the mom,0.0000
+The men find the mom,The men finds the mom,1.0000
+The man finds the mom,The men finds the mom,1.0000
+The man finds the girl,The man find the girl,0.0000
+The man finds the woman,The men finds the woman,1.0000
+The man finds the prince,The man find the prince,0.0000
+The men find the prince,The man find the prince,1.0000
+The man finds the princess,The men finds the princess,1.0000
+The men find the princess,The man find the princess,1.0000
+The woman finds the mom,The women finds the mom,1.0000
+The women find the mom,The woman find the mom,0.0000
+The woman finds the dad,The woman find the dad,1.0000
+The woman finds the girl,The woman find the girl,1.0000
+The women find the girl,The woman find the girl,0.0000
+The women find the prince,The women finds the prince,1.0000
+The women find the princess,The women finds the princess,1.0000
+The princes find the mom,The prince find the mom,1.0000
+The princes find the dad,The princes finds the dad,1.0000
+The prince finds the dad,The princes finds the dad,1.0000
+The princes find the girl,The prince find the girl,1.0000
+The prince finds the boy,The prince find the boy,1.0000
+The princes find the man,The princes finds the man,1.0000
+The prince finds the woman,The princes finds the woman,1.0000
+The princes find the woman,The prince find the woman,1.0000
+The princess finds the man,The princess find the man,0.0000
+The sister finds the dad,The sister find the dad,1.0000
+The sister finds the girl,The sisters finds the girl,0.0000
+The sister finds the boy,The sisters finds the boy,0.0000
+The sister finds the man,The sister find the man,1.0000
+The sisters find the man,The sisters finds the man,1.0000
+The sisters find the woman,The sister find the woman,1.0000
+The brothers find the dad,The brothers finds the dad,1.0000
+The brothers find the girl,The brothers finds the girl,1.0000
+The brothers find the girl,The brother find the girl,1.0000
+The brothers find the boy,The brother find the boy,1.0000
+The brothers find the man,The brother find the man,1.0000
+The brothers find the woman,The brother find the woman,1.0000
+The brother finds the princess,The brothers finds the princess,1.0000
+The brother finds the sister,The brothers finds the sister,1.0000
+The moms help the boy,The moms helps the boy,1.0000
+The mom helps the boy,The moms helps the boy,0.0000
+The moms help the princess,The moms helps the princess,1.0000
+The moms help the sister,The mom help the sister,1.0000
+The dad helps the mom,The dad help the mom,1.0000
+The dads help the mom,The dad help the mom,0.0000
+The dad helps the girl,The dads helps the girl,1.0000
+The dads help the boy,The dad help the boy,0.0000
+The dad helps the man,The dads helps the man,1.0000
+The dad helps the woman,The dad help the woman,1.0000
+The dad helps the sister,The dads helps the sister,1.0000
+The dads help the brother,The dad help the brother,0.0000
+The girl helps the dad,The girls helps the dad,1.0000
+The girls help the boy,The girls helps the boy,1.0000
+The girls help the boy,The girl help the boy,1.0000
+The girls help the man,The girls helps the man,1.0000
+The girls help the man,The girl help the man,1.0000
+The girls help the woman,The girls helps the woman,1.0000
+The girls help the prince,The girl help the prince,1.0000
+The girl helps the sister,The girl help the sister,1.0000
+The girls help the brother,The girls helps the brother,1.0000
+The boy helps the girl,The boy help the girl,1.0000
+The boys help the girl,The boys helps the girl,1.0000
+The boys help the woman,The boys helps the woman,1.0000
+The boy helps the prince,The boy help the prince,1.0000
+The boys help the prince,The boys helps the prince,1.0000
+The boy helps the prince,The boys helps the prince,1.0000
+The boy helps the princess,The boys helps the princess,1.0000
+The boys help the brother,The boys helps the brother,1.0000
+The boys help the brother,The boy help the brother,1.0000
+The men help the girl,The men helps the girl,1.0000
+The men help the girl,The man help the girl,1.0000
+The man helps the boy,The man help the boy,1.0000
+The men help the prince,The men helps the prince,1.0000
+The man helps the sister,The men helps the sister,1.0000
+The woman helps the dad,The women helps the dad,1.0000
+The women help the dad,The woman help the dad,1.0000
+The women help the girl,The women helps the girl,1.0000
+The women help the girl,The woman help the girl,0.0000
+The woman helps the boy,The women helps the boy,1.0000
+The woman helps the man,The woman help the man,1.0000
+The women help the man,The woman help the man,1.0000
+The women help the princess,The woman help the princess,1.0000
+The woman helps the sister,The women helps the sister,1.0000
+The woman helps the brother,The women helps the brother,1.0000
+The princes help the mom,The princes helps the mom,0.0000
+The princes help the mom,The prince help the mom,1.0000
+The princes help the dad,The princes helps the dad,0.0000
+The prince helps the dad,The princes helps the dad,1.0000
+The prince helps the girl,The prince help the girl,1.0000
+The princes help the girl,The princes helps the girl,0.0000
+The prince helps the girl,The princes helps the girl,1.0000
+The prince helps the boy,The prince help the boy,1.0000
+The princes help the boy,The princes helps the boy,0.0000
+The princes help the boy,The prince help the boy,0.0000
+The princes help the man,The princes helps the man,0.0000
+The princes help the woman,The prince help the woman,0.0000
+The princess helps the mom,The princesses helps the mom,0.0000
+The princesses help the dad,The princesses helps the dad,1.0000
+The princess helps the dad,The princesses helps the dad,0.0000
+The princess helps the girl,The princesses helps the girl,0.0000
+The princess helps the boy,The princess help the boy,1.0000
+The princess helps the boy,The princesses helps the boy,0.0000
+The princesses help the prince,The princesses helps the prince,1.0000
+The princesses help the sister,The princess help the sister,1.0000
+The princess helps the brother,The princesses helps the brother,0.0000
+The sisters help the girl,The sister help the girl,1.0000
+The sister helps the boy,The sister help the boy,1.0000
+The sisters help the woman,The sisters helps the woman,1.0000
+The sisters help the woman,The sister help the woman,1.0000
+The sister helps the prince,The sisters helps the prince,0.0000
+The sister helps the princess,The sisters helps the princess,0.0000
+The sisters help the brother,The sisters helps the brother,1.0000
+The sisters help the brother,The sister help the brother,1.0000
+The brother helps the mom,The brother help the mom,1.0000
+The brothers help the dad,The brothers helps the dad,1.0000
+The brother helps the boy,The brother help the boy,1.0000
+The brothers help the boy,The brothers helps the boy,1.0000
+The brother helps the boy,The brothers helps the boy,1.0000
+The brothers help the boy,The brother help the boy,1.0000
+The brother helps the woman,The brother help the woman,1.0000
+The brother helps the woman,The brothers helps the woman,1.0000
+The brothers help the prince,The brothers helps the prince,1.0000
+The mom remembers the dad,The mom remember the dad,1.0000
+The moms remember the dad,The mom remember the dad,1.0000
+The moms remember the girl,The moms remembers the girl,0.0000
+The moms remember the boy,The mom remember the boy,1.0000
+The moms remember the woman,The moms remembers the woman,0.0000
+The mom remembers the princess,The mom remember the princess,1.0000
+The moms remember the princess,The moms remembers the princess,0.0000
+The moms remember the sister,The mom remember the sister,1.0000
+The dad remembers the mom,The dads remembers the mom,1.0000
+The dad remembers the girl,The dad remember the girl,1.0000
+The dad remembers the woman,The dad remember the woman,1.0000
+The dads remember the woman,The dads remembers the woman,0.0000
+The dads remember the princess,The dads remembers the princess,0.0000
+The dads remember the sister,The dads remembers the sister,0.0000
+The dads remember the sister,The dad remember the sister,0.0000
+The dads remember the brother,The dad remember the brother,0.0000
+The girl remembers the dad,The girls remembers the dad,1.0000
+The girls remember the dad,The girl remember the dad,1.0000
+The girls remember the boy,The girls remembers the boy,0.0000
+The girl remembers the princess,The girl remember the princess,1.0000
+The girl remembers the sister,The girl remember the sister,1.0000
+The girl remembers the brother,The girl remember the brother,1.0000
+The girls remember the brother,The girls remembers the brother,0.0000
+The boy remembers the dad,The boys remembers the dad,1.0000
+The boys remember the girl,The boys remembers the girl,0.0000
+The boy remembers the sister,The boys remembers the sister,1.0000
+The men remember the mom,The man remember the mom,0.0000
+The men remember the girl,The men remembers the girl,0.0000
+The man remembers the girl,The men remembers the girl,1.0000
+The man remembers the boy,The man remember the boy,1.0000
+The men remember the boy,The man remember the boy,0.0000
+The man remembers the brother,The man remember the brother,1.0000
+The men remember the brother,The man remember the brother,0.0000
+The women remember the mom,The women remembers the mom,0.0000
+The women remember the mom,The woman remember the mom,0.0000
+The women remember the girl,The women remembers the girl,0.0000
+The women remember the boy,The women remembers the boy,0.0000
+The woman remembers the boy,The women remembers the boy,1.0000
+The women remember the prince,The women remembers the prince,0.0000
+The women remember the prince,The woman remember the prince,0.0000
+The women remember the princess,The women remembers the princess,0.0000
+The woman remembers the princess,The women remembers the princess,1.0000
+The woman remembers the sister,The woman remember the sister,1.0000
+The prince remembers the mom,The prince remember the mom,1.0000
+The princes remember the mom,The princes remembers the mom,0.0000
+The princes remember the girl,The prince remember the girl,1.0000
+The prince remembers the woman,The princes remembers the woman,1.0000
+The princes remember the princess,The princes remembers the princess,0.0000
+The prince remembers the sister,The princes remembers the sister,1.0000
+The prince remembers the brother,The prince remember the brother,1.0000
+The prince remembers the brother,The princes remembers the brother,1.0000
+The princes remember the brother,The prince remember the brother,0.0000
+The princess remembers the mom,The princess remember the mom,1.0000
+The princess remembers the boy,The princesses remembers the boy,0.0000
+The princesses remember the boy,The princess remember the boy,1.0000
+The princess remembers the prince,The princess remember the prince,1.0000
+The princess remembers the prince,The princesses remembers the prince,0.0000
+The princess remembers the sister,The princess remember the sister,1.0000
+The princess remembers the sister,The princesses remembers the sister,0.0000
+The princess remembers the brother,The princess remember the brother,1.0000
+The sisters remember the dad,The sister remember the dad,1.0000
+The sisters remember the girl,The sisters remembers the girl,0.0000
+The sister remembers the boy,The sister remember the boy,1.0000
+The sister remembers the boy,The sisters remembers the boy,0.0000
+The sisters remember the boy,The sister remember the boy,1.0000
+The sister remembers the princess,The sister remember the princess,1.0000
+The sisters remember the brother,The sister remember the brother,1.0000
+The brothers remember the mom,The brother remember the mom,0.0000
+The brothers remember the girl,The brothers remembers the girl,0.0000
+The brother remembers the boy,The brother remember the boy,1.0000
+The brothers remember the boy,The brother remember the boy,0.0000
+The brother remembers the man,The brother remember the man,1.0000
+The brothers remember the woman,The brother remember the woman,1.0000
+The brother remembers the prince,The brother remember the prince,1.0000
+The moms hold the dad,The moms holds the dad,1.0000
+The mom holds the girl,The mom hold the girl,1.0000
+The mom holds the boy,The mom hold the boy,1.0000
+The moms hold the man,The moms holds the man,1.0000
+The moms hold the prince,The moms holds the prince,1.0000
+The moms hold the princess,The moms holds the princess,1.0000
+The dad holds the mom,The dads holds the mom,1.0000
+The dads hold the mom,The dad hold the mom,0.0000
+The dad holds the girl,The dad hold the girl,1.0000
+The dad holds the girl,The dads holds the girl,1.0000
+The dads hold the girl,The dad hold the girl,0.0000
+The dad holds the boy,The dad hold the boy,1.0000
+The dads hold the boy,The dad hold the boy,0.0000
+The dads hold the woman,The dad hold the woman,0.0000
+The dad holds the prince,The dad hold the prince,1.0000
+The dad holds the princess,The dad hold the princess,1.0000
+The dads hold the sister,The dads holds the sister,1.0000
+The dad holds the sister,The dads holds the sister,1.0000
+The dad holds the brother,The dads holds the brother,1.0000
+The girls hold the mom,The girls holds the mom,1.0000
+The girls hold the dad,The girls holds the dad,1.0000
+The girl holds the man,The girls holds the man,1.0000
+The girl holds the woman,The girl hold the woman,1.0000
+The girls hold the prince,The girls holds the prince,1.0000
+The girls hold the princess,The girl hold the princess,1.0000
+The girl holds the sister,The girl hold the sister,1.0000
+The girls hold the sister,The girl hold the sister,1.0000
+The boys hold the mom,The boy hold the mom,1.0000
+The boy holds the woman,The boy hold the woman,0.0000
+The boy holds the woman,The boys holds the woman,1.0000
+The boy holds the sister,The boy hold the sister,1.0000
+The boy holds the sister,The boys holds the sister,1.0000
+The boys hold the sister,The boy hold the sister,1.0000
+The boy holds the brother,The boy hold the brother,1.0000
+The boy holds the brother,The boys holds the brother,1.0000
+The woman holds the mom,The women holds the mom,1.0000
+The woman holds the girl,The women holds the girl,1.0000
+The woman holds the man,The woman hold the man,1.0000
+The woman holds the prince,The woman hold the prince,1.0000
+The women hold the prince,The women holds the prince,1.0000
+The women hold the sister,The women holds the sister,1.0000
+The princes hold the dad,The princes holds the dad,1.0000
+The prince holds the dad,The princes holds the dad,1.0000
+The princes hold the dad,The prince hold the dad,1.0000
+The princes hold the princess,The princes holds the princess,1.0000
+The prince holds the brother,The prince hold the brother,1.0000
+The prince holds the brother,The princes holds the brother,1.0000
+The princesses hold the mom,The princesses holds the mom,1.0000
+The princess holds the girl,The princesses holds the girl,0.0000
+The princesses hold the boy,The princess hold the boy,1.0000
+The princess holds the woman,The princess hold the woman,0.0000
+The princesses hold the prince,The princesses holds the prince,1.0000
+The sisters hold the mom,The sister hold the mom,1.0000
+The sister holds the dad,The sisters holds the dad,0.0000
+The sisters hold the girl,The sisters holds the girl,1.0000
+The sisters hold the woman,The sisters holds the woman,1.0000
+The sisters hold the prince,The sisters holds the prince,1.0000
+The sister holds the prince,The sisters holds the prince,0.0000
+The sisters hold the brother,The sister hold the brother,1.0000
+The brother holds the girl,The brothers holds the girl,1.0000
+The brother holds the boy,The brothers holds the boy,1.0000
+The brother holds the man,The brother hold the man,0.0000
+The brothers hold the man,The brothers holds the man,1.0000
+The brothers hold the woman,The brother hold the woman,1.0000
+The brothers hold the prince,The brothers holds the prince,1.0000
+The brothers hold the princess,The brothers holds the princess,1.0000
+The brothers hold the sister,The brothers holds the sister,1.0000
+The brother holds the sister,The brothers holds the sister,1.0000
+The moms hear the dad,The mom hear the dad,1.0000
+The moms hear the girl,The moms hears the girl,0.0000
+The moms hear the boy,The mom hear the boy,1.0000
+The mom hears the man,The moms hears the man,0.0000
+The mom hears the woman,The moms hears the woman,0.0000
+The moms hear the prince,The moms hears the prince,0.0000
+The mom hears the brother,The mom hear the brother,1.0000
+The dad hears the mom,The dad hear the mom,1.0000
+The dads hear the mom,The dads hears the mom,0.0000
+The dads hear the boy,The dad hear the boy,0.0000
+The dads hear the man,The dads hears the man,0.0000
+The dad hears the prince,The dad hear the prince,1.0000
+The dad hears the princess,The dad hear the princess,1.0000
+The dads hear the brother,The dad hear the brother,0.0000
+The girl hears the mom,The girls hears the mom,1.0000
+The girl hears the boy,The girl hear the boy,1.0000
+The girls hear the woman,The girls hears the woman,0.0000
+The girls hear the woman,The girl hear the woman,1.0000
+The girls hear the prince,The girls hears the prince,0.0000
+The girl hears the prince,The girls hears the prince,1.0000
+The girl hears the princess,The girl hear the princess,1.0000
+The girls hear the sister,The girls hears the sister,0.0000
+The boys hear the man,The boy hear the man,1.0000
+The boys hear the woman,The boys hears the woman,0.0000
+The boys hear the woman,The boy hear the woman,1.0000
+The boys hear the prince,The boys hears the prince,0.0000
+The boy hears the brother,The boy hear the brother,1.0000
+The man hears the prince,The men hears the prince,1.0000
+The man hears the sister,The man hear the sister,1.0000
+The man hears the brother,The men hears the brother,1.0000
+The women hear the mom,The women hears the mom,0.0000
+The woman hears the mom,The women hears the mom,1.0000
+The woman hears the girl,The woman hear the girl,1.0000
+The woman hears the girl,The women hears the girl,1.0000
+The woman hears the sister,The women hears the sister,1.0000
+The woman hears the brother,The women hears the brother,1.0000
+The prince hears the mom,The princes hears the mom,1.0000
+The princes hear the dad,The prince hear the dad,1.0000
+The princes hear the girl,The princes hears the girl,0.0000
+The prince hears the girl,The princes hears the girl,1.0000
+The princes hear the girl,The prince hear the girl,1.0000
+The prince hears the boy,The princes hears the boy,1.0000
+The princes hear the boy,The prince hear the boy,1.0000
+The prince hears the sister,The prince hear the sister,1.0000
+The princes hear the sister,The princes hears the sister,0.0000
+The prince hears the sister,The princes hears the sister,1.0000
+The princes hear the sister,The prince hear the sister,1.0000
+The princes hear the brother,The princes hears the brother,0.0000
+The princess hears the mom,The princess hear the mom,1.0000
+The princesses hear the dad,The princess hear the dad,1.0000
+The princess hears the girl,The princess hear the girl,1.0000
+The princess hears the girl,The princesses hears the girl,0.0000
+The princess hears the boy,The princess hear the boy,1.0000
+The princesses hear the boy,The princesses hears the boy,0.0000
+The princesses hear the boy,The princess hear the boy,1.0000
+The princess hears the man,The princess hear the man,1.0000
+The princesses hear the man,The princesses hears the man,0.0000
+The princess hears the woman,The princesses hears the woman,0.0000
+The princesses hear the prince,The princess hear the prince,1.0000
+The sister hears the mom,The sister hear the mom,1.0000
+The sister hears the dad,The sisters hears the dad,0.0000
+The sisters hear the boy,The sister hear the boy,1.0000
+The sister hears the man,The sister hear the man,1.0000
+The sisters hear the man,The sisters hears the man,0.0000
+The sisters hear the woman,The sister hear the woman,1.0000
+The sisters hear the princess,The sisters hears the princess,0.0000
+The brothers hear the dad,The brother hear the dad,1.0000
+The brothers hear the girl,The brothers hears the girl,0.0000
+The brothers hear the girl,The brother hear the girl,0.0000
+The brother hears the woman,The brother hear the woman,1.0000
+The brother hears the woman,The brothers hears the woman,1.0000
+The brother hears the princess,The brother hear the princess,1.0000
+The brothers hear the princess,The brother hear the princess,1.0000
+The moms love the boy,The moms loves the boy,0.0000
+The mom loves the woman,The moms loves the woman,0.0000
+The moms love the prince,The mom love the prince,1.0000
+The moms love the princess,The moms loves the princess,0.0000
+The mom loves the sister,The mom love the sister,1.0000
+The mom loves the sister,The moms loves the sister,0.0000
+The mom loves the brother,The mom love the brother,1.0000
+The moms love the brother,The moms loves the brother,0.0000
+The dads love the mom,The dads loves the mom,0.0000
+The dad loves the mom,The dads loves the mom,1.0000
+The dads love the man,The dads loves the man,0.0000
+The dad loves the woman,The dad love the woman,1.0000
+The dads love the prince,The dads loves the prince,0.0000
+The girls love the mom,The girls loves the mom,0.0000
+The girl loves the boy,The girl love the boy,1.0000
+The girl loves the boy,The girls loves the boy,1.0000
+The girls love the woman,The girls loves the woman,0.0000
+The girls love the woman,The girl love the woman,1.0000
+The girl loves the princess,The girl love the princess,1.0000
+The boy loves the dad,The boys loves the dad,1.0000
+The boy loves the girl,The boy love the girl,1.0000
+The boy loves the girl,The boys loves the girl,1.0000
+The boy loves the woman,The boy love the woman,1.0000
+The boys love the woman,The boys loves the woman,0.0000
+The boys love the princess,The boy love the princess,1.0000
+The boy loves the sister,The boys loves the sister,1.0000
+The boy loves the brother,The boy love the brother,1.0000
+The boys love the brother,The boy love the brother,1.0000
+The men love the mom,The man love the mom,1.0000
+The man loves the girl,The men loves the girl,1.0000
+The men love the woman,The men loves the woman,0.0000
+The men love the princess,The man love the princess,1.0000
+The men love the brother,The men loves the brother,0.0000
+The woman loves the dad,The woman love the dad,1.0000
+The woman loves the dad,The women loves the dad,1.0000
+The women love the girl,The woman love the girl,0.0000
+The woman loves the man,The women loves the man,1.0000
+The women love the man,The woman love the man,0.0000
+The woman loves the princess,The woman love the princess,1.0000
+The woman loves the princess,The women loves the princess,1.0000
+The women love the sister,The woman love the sister,0.0000
+The princes love the mom,The prince love the mom,1.0000
+The prince loves the dad,The prince love the dad,1.0000
+The princes love the boy,The prince love the boy,1.0000
+The princes love the man,The princes loves the man,0.0000
+The prince loves the man,The princes loves the man,1.0000
+The princes love the man,The prince love the man,1.0000
+The princes love the woman,The princes loves the woman,0.0000
+The prince loves the princess,The prince love the princess,1.0000
+The princes love the brother,The princes loves the brother,0.0000
+The prince loves the brother,The princes loves the brother,1.0000
+The princess loves the mom,The princesses loves the mom,0.0000
+The princess loves the girl,The princess love the girl,1.0000
+The princess loves the man,The princesses loves the man,1.0000
+The princesses love the woman,The princesses loves the woman,0.0000
+The princess loves the prince,The princess love the prince,1.0000
+The princesses love the prince,The princesses loves the prince,0.0000
+The princess loves the sister,The princess love the sister,1.0000
+The sister loves the mom,The sister love the mom,1.0000
+The sisters love the mom,The sisters loves the mom,0.0000
+The sister loves the dad,The sister love the dad,1.0000
+The sister loves the dad,The sisters loves the dad,0.0000
+The sister loves the man,The sister love the man,1.0000
+The sister loves the prince,The sister love the prince,1.0000
+The sister loves the brother,The sister love the brother,1.0000
+The brother loves the mom,The brother love the mom,1.0000
+The brothers love the mom,The brothers loves the mom,0.0000
+The brother loves the dad,The brother love the dad,1.0000
+The brother loves the boy,The brothers loves the boy,1.0000
+The brothers love the man,The brothers loves the man,0.0000
+The brother loves the woman,The brother love the woman,1.0000
+The brother loves the woman,The brothers loves the woman,1.0000
+The brother loves the prince,The brother love the prince,1.0000
+The brothers love the prince,The brothers loves the prince,0.0000
+The brother loves the prince,The brothers loves the prince,1.0000
+The brothers love the prince,The brother love the prince,1.0000
+The brother loves the princess,The brother love the princess,1.0000
+The brother loves the sister,The brother love the sister,1.0000
+The mom pushes the dad,The mom push the dad,1.0000
+The mom pushes the woman,The moms pushes the woman,0.0000
+The mom pushes the prince,The moms pushes the prince,0.0000
+The dads push the mom,The dad push the mom,0.0000
+The dads push the boy,The dad push the boy,0.0000
+The dads push the man,The dads pushes the man,0.0000
+The dad pushes the man,The dads pushes the man,1.0000
+The dad pushes the sister,The dads pushes the sister,1.0000
+The dads push the brother,The dad push the brother,0.0000
+The girl pushes the boy,The girl push the boy,1.0000
+The girls push the man,The girls pushes the man,0.0000
+The girls push the woman,The girls pushes the woman,0.0000
+The girls push the woman,The girl push the woman,1.0000
+The girl pushes the prince,The girl push the prince,1.0000
+The girl pushes the prince,The girls pushes the prince,1.0000
+The girl pushes the sister,The girl push the sister,1.0000
+The girls push the brother,The girl push the brother,1.0000
+The boys push the mom,The boy push the mom,1.0000
+The boys push the girl,The boys pushes the girl,0.0000
+The boys push the woman,The boys pushes the woman,0.0000
+The boy pushes the prince,The boy push the prince,1.0000
+The boys push the prince,The boys pushes the prince,0.0000
+The boys push the princess,The boys pushes the princess,0.0000
+The boys push the brother,The boy push the brother,1.0000
+The men push the mom,The man push the mom,1.0000
+The men push the boy,The men pushes the boy,0.0000
+The man pushes the brother,The men pushes the brother,1.0000
+The women push the boy,The women pushes the boy,0.0000
+The woman pushes the man,The woman push the man,1.0000
+The women push the man,The woman push the man,0.0000
+The woman pushes the princess,The women pushes the princess,1.0000
+The woman pushes the sister,The woman push the sister,1.0000
+The women push the sister,The woman push the sister,0.0000
+The prince pushes the boy,The princes pushes the boy,1.0000
+The princes push the boy,The prince push the boy,1.0000
+The prince pushes the woman,The prince push the woman,1.0000
+The prince pushes the princess,The prince push the princess,1.0000
+The princes push the brother,The princes pushes the brother,0.0000
+The princesses push the mom,The princess push the mom,1.0000
+The princess pushes the boy,The princesses pushes the boy,0.0000
+The princesses push the man,The princess push the man,1.0000
+The princess pushes the prince,The princesses pushes the prince,0.0000
+The princesses push the brother,The princess push the brother,1.0000
+The sisters push the dad,The sister push the dad,1.0000
+The sisters push the woman,The sisters pushes the woman,0.0000
+The sisters push the prince,The sisters pushes the prince,0.0000
+The sisters push the princess,The sisters pushes the princess,0.0000
+The brother pushes the boy,The brothers pushes the boy,1.0000
+The brothers push the woman,The brother push the woman,1.0000
+The brother pushes the princess,The brothers pushes the princess,1.0000
+The brothers push the princess,The brother push the princess,1.0000
+The brothers push the sister,The brothers pushes the sister,0.0000
+The brother pushes the sister,The brothers pushes the sister,1.0000
+The brothers push the sister,The brother push the sister,0.0000
+The girl sees,The sees girl,1.0000
+The person sees,The sees person,1.0000
+The bee sees,The sees bee,1.0000
+The sheep sees,The sees sheep,1.0000
+The giraffe sees,The sees giraffe,1.0000
+The woman sees,The sees woman,1.0000
+The guy looks,The looks guy,1.0000
+The animal looks,The looks animal,1.0000
+The dad looks,The looks dad,1.0000
+The lady looks,The looks lady,1.0000
+The lion looks,The looks lion,1.0000
+The tiger looks,The looks tiger,1.0000
+The donkey looks,The looks donkey,1.0000
+The guy knows,The knows guy,1.0000
+The horse knows,The knows horse,1.0000
+The dad knows,The knows dad,1.0000
+The elephant knows,The knows elephant,1.0000
+The bunny knows,The knows bunny,1.0000
+The chicken knows,The knows chicken,1.0000
+The mouse knows,The knows mouse,1.0000
+The puppy knows,The knows puppy,1.0000
+The rabbit knows,The knows rabbit,1.0000
+The turtle knows,The knows turtle,1.0000
+The owl knows,The knows owl,1.0000
+The giraffe knows,The knows giraffe,1.0000
+The donkey knows,The knows donkey,1.0000
+The uncle knows,The knows uncle,1.0000
+The goose knows,The knows goose,1.0000
+The girl says,The says girl,1.0000
+The animal says,The says animal,1.0000
+The chicken says,The says chicken,1.0000
+The dinosaur says,The says dinosaur,1.0000
+The rabbit says,The says rabbit,1.0000
+The sheep says,The says sheep,1.0000
+The dragon says,The says dragon,1.0000
+The mom comes,The comes mom,1.0000
+The animal comes,The comes animal,1.0000
+The dad comes,The comes dad,1.0000
+The lady comes,The comes lady,1.0000
+The turtle comes,The comes turtle,1.0000
+The monster comes,The comes monster,1.0000
+The spider comes,The comes spider,1.0000
+The mom thinks,The thinks mom,1.0000
+The animal thinks,The thinks animal,1.0000
+The bird thinks,The thinks bird,1.0000
+The elephant thinks,The thinks elephant,1.0000
+The chicken thinks,The thinks chicken,1.0000
+The dinosaur thinks,The thinks dinosaur,1.0000
+The mouse thinks,The thinks mouse,1.0000
+The caterpillar thinks,The thinks caterpillar,1.0000
+The sheep thinks,The thinks sheep,1.0000
+The owl thinks,The thinks owl,1.0000
+The zebra thinks,The thinks zebra,1.0000
+The giraffe thinks,The thinks giraffe,1.0000
+The girl eats,The eats girl,1.0000
+The mouse eats,The eats mouse,1.0000
+The puppy eats,The eats puppy,1.0000
+The lion eats,The eats lion,1.0000
+The monster eats,The eats monster,1.0000
+The kangaroo eats,The eats kangaroo,1.0000
+The uncle eats,The eats uncle,1.0000
+The girl tells,The tells girl,1.0000
+The animal tells,The tells animal,1.0000
+The horse tells,The tells horse,1.0000
+The caterpillar tells,The tells caterpillar,1.0000
+The kangaroo tells,The tells kangaroo,1.0000
+The giraffe tells,The tells giraffe,1.0000
+The turkey tells,The tells turkey,1.0000
+The donkey tells,The tells donkey,1.0000
+The uncle tells,The tells uncle,1.0000
+The person sits,The sits person,1.0000
+The horse sits,The sits horse,1.0000
+The duck sits,The sits duck,1.0000
+The cow sits,The sits cow,1.0000
+The rabbit sits,The sits rabbit,1.0000
+The monster sits,The sits monster,1.0000
+The giraffe sits,The sits giraffe,1.0000
+The horse tries,The tries horse,1.0000
+The duck tries,The tries duck,1.0000
+The dad tries,The tries dad,1.0000
+The elephant tries,The tries elephant,1.0000
+The dinosaur tries,The tries dinosaur,1.0000
+The monkey tries,The tries monkey,1.0000
+The woman tries,The tries woman,1.0000
+The cat reads,The reads cat,1.0000
+The horse reads,The reads horse,1.0000
+The duck reads,The reads duck,1.0000
+The lady reads,The reads lady,1.0000
+The monkey reads,The reads monkey,1.0000
+The caterpillar reads,The reads caterpillar,1.0000
+The puppy reads,The reads puppy,1.0000
+The rabbit reads,The reads rabbit,1.0000
+The lion reads,The reads lion,1.0000
+The giraffe reads,The reads giraffe,1.0000
+The woman reads,The reads woman,1.0000
+The mom turns,The turns mom,1.0000
+The cat turns,The turns cat,1.0000
+The guy turns,The turns guy,1.0000
+The animal turns,The turns animal,1.0000
+The horse turns,The turns horse,1.0000
+The chicken turns,The turns chicken,1.0000
+The monkey turns,The turns monkey,1.0000
+The caterpillar turns,The turns caterpillar,1.0000
+The sheep turns,The turns sheep,1.0000
+The turtle turns,The turns turtle,1.0000
+The person helps,The helps person,1.0000
+The kitty helps,The helps kitty,1.0000
+The mouse helps,The helps mouse,1.0000
+The monkey helps,The helps monkey,1.0000
+The rabbit helps,The helps rabbit,1.0000
+The lion helps,The helps lion,1.0000
+The person waits,The waits person,1.0000
+The horse waits,The waits horse,1.0000
+The kitty waits,The waits kitty,1.0000
+The dad waits,The waits dad,1.0000
+The elephant waits,The waits elephant,1.0000
+The lion waits,The waits lion,1.0000
+The monster waits,The waits monster,1.0000
+The owl waits,The waits owl,1.0000
+The spider waits,The waits spider,1.0000
+The uncle waits,The waits uncle,1.0000
+The cow falls,The falls cow,1.0000
+The elephant falls,The falls elephant,1.0000
+The rabbit falls,The falls rabbit,1.0000
+The lion falls,The falls lion,1.0000
+The tiger falls,The falls tiger,1.0000
+The turtle falls,The falls turtle,1.0000
+The monster falls,The falls monster,1.0000
+The donkey falls,The falls donkey,1.0000
+The duck remembers,The remembers duck,1.0000
+The mouse remembers,The remembers mouse,1.0000
+The caterpillar remembers,The remembers caterpillar,1.0000
+The rabbit remembers,The remembers rabbit,1.0000
+The owl remembers,The remembers owl,1.0000
+The spider remembers,The remembers spider,1.0000
+The woman remembers,The remembers woman,1.0000
+The mom hears,The hears mom,0.0000
+The bird hears,The hears bird,1.0000
+The dad hears,The hears dad,1.0000
+The lady hears,The hears lady,1.0000
+The owl hears,The hears owl,1.0000
+The donkey hears,The hears donkey,1.0000
+The girl shows,The shows girl,1.0000
+The guy shows,The shows guy,1.0000
+The chicken shows,The shows chicken,1.0000
+The lion shows,The shows lion,1.0000
+The bee shows,The shows bee,1.0000
+The snake shows,The shows snake,1.0000
+The owl shows,The shows owl,1.0000
+The spider shows,The shows spider,1.0000
+The kangaroo shows,The shows kangaroo,1.0000
+The giraffe shows,The shows giraffe,1.0000
+The turkey shows,The shows turkey,1.0000
+The person runs,The runs person,1.0000
+The guy runs,The runs guy,1.0000
+The cow runs,The runs cow,1.0000
+The kangaroo runs,The runs kangaroo,1.0000
+The giraffe runs,The runs giraffe,1.0000
+The turkey runs,The runs turkey,1.0000
+The cat leaves,The leaves cat,1.0000
+The guy leaves,The leaves guy,1.0000
+The bunny leaves,The leaves bunny,1.0000
+The puppy leaves,The leaves puppy,1.0000
+The sheep leaves,The leaves sheep,1.0000
+The zebra leaves,The leaves zebra,1.0000
+The dragon leaves,The leaves dragon,1.0000
+The cat writes,The writes cat,1.0000
+The animal writes,The writes animal,1.0000
+The duck writes,The writes duck,1.0000
+The puppy writes,The writes puppy,1.0000
+The tiger writes,The writes tiger,1.0000
+The turtle writes,The writes turtle,1.0000
+The monster writes,The writes monster,1.0000
+The giraffe writes,The writes giraffe,1.0000
+The woman writes,The writes woman,1.0000
+The mouse thanks,The thanks mouse,1.0000
+The rabbit thanks,The thanks rabbit,1.0000
+The zebra thanks,The thanks zebra,1.0000
+The turkey thanks,The thanks turkey,1.0000
+The uncle thanks,The thanks uncle,1.0000
+The person stays,The stays person,1.0000
+The guy stays,The stays guy,1.0000
+The bunny stays,The stays bunny,1.0000
+The monkey stays,The stays monkey,1.0000
+The lion stays,The stays lion,1.0000
+The turtle stays,The stays turtle,1.0000
+The monster stays,The stays monster,1.0000
+The zebra stays,The stays zebra,1.0000
+The dragon stays,The stays dragon,1.0000
+The horse starts,The starts horse,1.0000
+The monster starts,The starts monster,1.0000
+The guy finishes,The finishes guy,0.0000
+The kitty finishes,The finishes kitty,1.0000
+The cow finishes,The finishes cow,1.0000
+The dinosaur finishes,The finishes dinosaur,1.0000
+The tiger finishes,The finishes tiger,1.0000
+The spider finishes,The finishes spider,1.0000
+The animal moves,The moves animal,1.0000
+The duck moves,The moves duck,1.0000
+The bunny moves,The moves bunny,1.0000
+The dinosaur moves,The moves dinosaur,1.0000
+The puppy moves,The moves puppy,1.0000
+The sheep moves,The moves sheep,1.0000
+The kangaroo moves,The moves kangaroo,1.0000
+The dragon moves,The moves dragon,1.0000
+The goose moves,The moves goose,1.0000
+The kitty feels,The feels kitty,1.0000
+The chicken feels,The feels chicken,1.0000
+The zebra feels,The feels zebra,1.0000
+The turkey feels,The feels turkey,1.0000
+The donkey feels,The feels donkey,1.0000
+The uncle feels,The feels uncle,1.0000
+The mom pulls,The pulls mom,1.0000
+The lady pulls,The pulls lady,1.0000
+The caterpillar pulls,The pulls caterpillar,1.0000
+The bee pulls,The pulls bee,1.0000
+The snake pulls,The pulls snake,1.0000
+The turtle pulls,The pulls turtle,1.0000
+The spider pulls,The pulls spider,1.0000
+The giraffe pulls,The pulls giraffe,1.0000
+The uncle pulls,The pulls uncle,1.0000
+The horse asks,The asks horse,1.0000
+The kitty asks,The asks kitty,1.0000
+The chicken asks,The asks chicken,1.0000
+The lady asks,The asks lady,1.0000
+The caterpillar asks,The asks caterpillar,1.0000
+The tiger asks,The asks tiger,1.0000
+The monster asks,The asks monster,1.0000
+The owl asks,The asks owl,1.0000
+The turkey asks,The asks turkey,1.0000
+The goose asks,The asks goose,1.0000
+The mom stands,The stands mom,1.0000
+The guy stands,The stands guy,1.0000
+The dad stands,The stands dad,1.0000
+The chicken stands,The stands chicken,1.0000
+The caterpillar stands,The stands caterpillar,1.0000
+The turtle stands,The stands turtle,1.0000
+The kangaroo stands,The stands kangaroo,1.0000
+The giraffe stands,The stands giraffe,1.0000
+The guy sings,The sings guy,1.0000
+The dad sings,The sings dad,1.0000
+The bee sings,The sings bee,1.0000
+The mom draws,The draws mom,1.0000
+The chicken draws,The draws chicken,1.0000
+The mouse draws,The draws mouse,1.0000
+The lady draws,The draws lady,1.0000
+The lion draws,The draws lion,1.0000
+The bee draws,The draws bee,1.0000
+The zebra draws,The draws zebra,1.0000
+The uncle draws,The draws uncle,1.0000
+The girl touches,The touches girl,1.0000
+The person touches,The touches person,1.0000
+The horse touches,The touches horse,1.0000
+The bunny touches,The touches bunny,1.0000
+The mouse touches,The touches mouse,1.0000
+The puppy touches,The touches puppy,1.0000
+The rabbit touches,The touches rabbit,1.0000
+The giraffe touches,The touches giraffe,1.0000
+The dragon touches,The touches dragon,1.0000
+The woman touches,The touches woman,1.0000
+The horse listens,The listens horse,1.0000
+The kitty listens,The listens kitty,1.0000
+The dad listens,The listens dad,1.0000
+The elephant listens,The listens elephant,1.0000
+The chicken listens,The listens chicken,1.0000
+The dinosaur listens,The listens dinosaur,1.0000
+The caterpillar listens,The listens caterpillar,1.0000
+The tiger listens,The listens tiger,1.0000
+The owl listens,The listens owl,1.0000
+The cat loses,The loses cat,1.0000
+The bird loses,The loses bird,1.0000
+The duck loses,The loses duck,1.0000
+The dinosaur loses,The loses dinosaur,1.0000
+The lady loses,The loses lady,1.0000
+The tiger loses,The loses tiger,1.0000
+The giraffe loses,The loses giraffe,1.0000
+The uncle loses,The loses uncle,1.0000
+The goose loses,The loses goose,1.0000
+The cat climbs,The climbs cat,1.0000
+The horse climbs,The climbs horse,1.0000
+The duck climbs,The climbs duck,1.0000
+The bunny climbs,The climbs bunny,1.0000
+The chicken climbs,The climbs chicken,1.0000
+The dinosaur climbs,The climbs dinosaur,1.0000
+The rabbit climbs,The climbs rabbit,1.0000
+The zebra climbs,The climbs zebra,1.0000
+The giraffe climbs,The climbs giraffe,1.0000
+The goose climbs,The climbs goose,1.0000
+The horse spells,The spells horse,1.0000
+The bird spells,The spells bird,1.0000
+The cow spells,The spells cow,1.0000
+The mouse spells,The spells mouse,1.0000
+The puppy spells,The spells puppy,1.0000
+The rabbit spells,The spells rabbit,1.0000
+The snake spells,The spells snake,1.0000
+The spider spells,The spells spider,1.0000
+The dragon spells,The spells dragon,1.0000
+The cat chews,The chews cat,1.0000
+The dad chews,The chews dad,1.0000
+The dinosaur chews,The chews dinosaur,1.0000
+The rabbit chews,The chews rabbit,1.0000
+The giraffe chews,The chews giraffe,1.0000
+The turkey chews,The chews turkey,1.0000
+The donkey chews,The chews donkey,1.0000
+The woman chews,The chews woman,1.0000
+The person learns,The learns person,1.0000
+The horse learns,The learns horse,1.0000
+The duck learns,The learns duck,1.0000
+The dinosaur learns,The learns dinosaur,1.0000
+The monkey learns,The learns monkey,1.0000
+The caterpillar learns,The learns caterpillar,1.0000
+The rabbit learns,The learns rabbit,1.0000
+The snake learns,The learns snake,1.0000
+The spider learns,The learns spider,1.0000
+The zebra learns,The learns zebra,1.0000
+The woman learns,The learns woman,1.0000
+The mom wipes,The wipes mom,1.0000
+The person wipes,The wipes person,1.0000
+The cat wipes,The wipes cat,1.0000
+The guy wipes,The wipes guy,1.0000
+The animal wipes,The wipes animal,1.0000
+The kitty wipes,The wipes kitty,1.0000
+The bunny wipes,The wipes bunny,1.0000
+The chicken wipes,The wipes chicken,1.0000
+The mouse wipes,The wipes mouse,1.0000
+The owl wipes,The wipes owl,1.0000
+The giraffe wipes,The wipes giraffe,0.0000
+The dragon wipes,The wipes dragon,1.0000
+The woman wipes,The wipes woman,1.0000
