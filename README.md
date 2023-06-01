@@ -1,4 +1,4 @@
-<p align="center" width="70%">
+<p align="center" width="30%">
 <img src="./docs/images/benchmarking_speech_acquisition_transp.png"> 
 </p>
 
