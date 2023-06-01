@@ -1,6 +1,25 @@
 # Download the development and test sets
 
-Work in progress (Marvin)
+You can use the following command lines to download the dataset in the `<DATA_LOCATION>` folder:
+
+```
+mkdir -p <DATA_LOCATION>/babyslm/{lexical,syntactic}
+wget https://cognitive-ml.fr/downloads/baby-slm/evaluation_sets/lexical/dev.zip -P <DATA_LOCATION>/babyslm/lexical
+wget https://cognitive-ml.fr/downloads/baby-slm/evaluation_sets/lexical/test.zip -P <DATA_LOCATION>/babyslm/lexical
+wget https://cognitive-ml.fr/downloads/baby-slm/evaluation_sets/syntactic/dev.zip -P <DATA_LOCATION>/babyslm/syntactic
+wget https://cognitive-ml.fr/downloads/baby-slm/evaluation_sets/syntactic/test.zip -P <DATA_LOCATION>/babyslm/syntactic
+```
+
+Alternatively, you can click on the following links to download the evaluation stimuli
+
+<center>
+
+| Lexical evaluation                                                                            | Syntactic evaluation                                                                           |
+|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| [dev](https://cognitive-ml.fr/downloads/baby-slm/evaluation_sets/lexical/dev.zip) (728 MB)    | [dev](https://cognitive-ml.fr/downloads/baby-slm/evaluation_sets/syntactic/dev.zip) (659 MB)   |
+| [test](https://cognitive-ml.fr/downloads/baby-slm/evaluation_sets/lexical/test.zip) (10.9 GB) | [test](https://cognitive-ml.fr/downloads/baby-slm/evaluation_sets/syntactic/test.zip) (7.7 GB) |
+
+</center>
 
 # Evaluate your own model
 
