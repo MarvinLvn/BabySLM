@@ -36,9 +36,9 @@ Alternatively, you can click on the following links to download the evaluation s
 
 Let us run two examples!
 
-### Lexical evaluation (spot-the-word)
+### 1) Lexical evaluation (spot-the-word)
 
-In `example/librivox_1024h/lexical/dev.txt`, you'll find the probabilities computed on the dev set of the lexical task for a model trained on 1,024h of speech from Librivox.
+In `example/librivox_1024h/lexical/dev.txt`, you'll find the probabilities computed on the lexical dev set for a model trained on 1,024h of speech from Librivox.
 The file looks like:
 
 ```txt
@@ -68,12 +68,13 @@ where:
 - the `--output` argument indicates where to store the output files.
 - the `--kind` argument is either dev or test, depending on whether you want to compute the score on the dev or the test set.
 
-The file `overall_accuracy_lexical_dev.txt` should contain the string `59.5` which is the lexical accuracy obtained by the model on the dev set.
+You can check in `overall_accuracy_lexical_dev.txt` that the model obtains a lexical accuracy of 59.5% on the dev set.
 
-### Syntactic evaluation (grammatical acceptability judgment)
+### 2) Syntactic evaluation (grammatical acceptability judgment)
 
-Let's compute the syntactic score obtained by BabyBERTa this time! It works pretty similarly as above:
-The `example/babyberta/syntactic/dev.txt` file looks like:
+Let's compute the syntactic score obtained by BabyBERTa this time! 
+
+It works pretty similarly as above. The `example/babyberta/syntactic/dev.txt` file looks like:
 
 ```bash
 The_woman_chews_en-US-Wavenet-B -15.0255126953125
@@ -81,7 +82,7 @@ The_chews_woman_en-US-Wavenet-B -15.721282958984375
 The_person_learns_en-US-Wavenet-B -15.446614265441895
 The_learns_person_en-US-Wavenet-B -15.838199615478516
 ```
-But this time, we only have stimulus from a single voice (`en-US-Wavenet-B`). This is because BabyBERTa is a text-based language model and running it on different voices would yield the exact same results.
+But here, we only have stimulus from a single voice (`en-US-Wavenet-B`). This is because BabyBERTa is a text-based language model and running it on different voices would yield the exact same results.
 
 We compute the syntactic accuracy by running:
 
@@ -94,38 +95,14 @@ python scripts/metrics/compute_syntactic.py --gold ~/Documents/babyslm \
 ```
 
 Here, we have an additional `--is_text` flag indicating that the model works with text (orthographic or phonetic form) and that only a single voice should be considered.
-The file `overall_accuracy_syntactic_dev.txt` should contain the string `70.4` which is the syntactic accuracy obtained by BabyBERTa on the dev set.
+You can check in `overall_accuracy_syntactic_dev.txt` that BabyBERTa obtains a syntactic accuracy of `70.4%` on the dev set.
 
 ### Final notes
 
+Your turn! You can extract probabilities using your own model and storing them following the patterns provided in the `example/babyberta` or `example/librivox_1024h` folders.
+Might be helpful to check how we implemented this for [LSTM](scripts/compute_proba.py), [BabyBERTa](scripts/extract_prob_babyberta.py) and [STELA](scripts/compute_proba.py). 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- `--is_text` indicates if the model is a text-based (in which case the script will compute the score on only one voice) or audio-based (will consider all voices)
-
-Please note that if you evaluate a text-based language model, there should be as many lines as there are word/nonwords for a single voice (let's say en-US-Wavenet-B if you consider the dev set).
-However, if you evaluate an audio-based language model, there should be as many lines as there are word/nonwords for all the voices (2 voices for the dev set, 8 voices for the test set).
-
-
-
-
-
-
-# Evaluate models used in the paper
+### Going further
 
 How to evaluate:
 - [STELA (audio)](evaluation/stela_lm.md)
