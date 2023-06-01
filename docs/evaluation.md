@@ -13,7 +13,7 @@ wget https://cognitive-ml.fr/downloads/baby-slm/evaluation_sets/syntactic/dev.zi
 unzip <DATA_LOCATION>/babyslm/lexical/dev.zip -d <DATA_LOCATION>/babyslm/lexical
 unzip <DATA_LOCATION>/babyslm/syntactic/dev.zip -d <DATA_LOCATION>/babyslm/syntactic
 
-# Download test
+# Download test (you can skip this for now)
 wget https://cognitive-ml.fr/downloads/baby-slm/evaluation_sets/lexical/test.zip -P <DATA_LOCATION>/babyslm/lexical
 wget https://cognitive-ml.fr/downloads/baby-slm/evaluation_sets/syntactic/test.zip -P <DATA_LOCATION>/babyslm/syntactic
 
