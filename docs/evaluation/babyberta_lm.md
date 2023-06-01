@@ -1,10 +1,7 @@
 # Evaluate BabyBERTa (text-based)
 
-If you want to evaluate BabyBERTa, you must install the following conda environment:
+Once you followed [the instructions](../evaluation.md) to download the evaluation dataset and the [installation instructions specific to BabyBERTA](../installation/babyberta.md)
 
-```bash
-# Install dependencies
-conda env create -f babyberta_env.yml & conda activate babyberta
-```
+
 
 Work in progress (Marvin)

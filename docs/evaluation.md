@@ -100,11 +100,11 @@ You can check in `overall_accuracy_syntactic_dev.txt` that BabyBERTa obtains a s
 ### 3) Final notes
 
 Your turn! You can extract probabilities using your own model and storing them following the patterns provided in the `example/babyberta` or `example/librivox_1024h` folders.
-Might be helpful to check how we implemented this for [LSTM](scripts/compute_proba.py), [BabyBERTa](scripts/extract_prob_babyberta.py) and [STELA](scripts/compute_proba.py). 
+Might be helpful to check how we implemented this for [LSTM](scripts/compute_proba.py), [BabyBERTa](scripts/extract_prob_babyberta.py), and [STELA](scripts/compute_proba.py). 
 
 ### 4) Going further
 
-How to evaluate:
+How to download the pre-trained models used in the paper and evaluate them:
 - [STELA (audio)](evaluation/stela_lm.md)
 - [LSTM (phones or words)](evaluation/text_lstm_lm.md)
 - [N-grams (phones or words)](evaluation/ngram_lm.md)
