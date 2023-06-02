@@ -31,7 +31,7 @@ def write_args(args, out_file):
 def main(argv):
     parser = argparse.ArgumentParser(description='WIP')
     parser.add_argument('--input_path', type=str, required=True,
-                        help='Path of the dev or test set of the ZeroSpeech corpus '
+                        help='Path of the dev or test set of the BabySLM corpus '
                              '(should end with a lexical or syntactic folder)')
     parser.add_argument('--mode', type=str, choices=['dev', 'test', 'both'], default='dev',
                         help="What set to extract: dev, test or both (default: dev)")
