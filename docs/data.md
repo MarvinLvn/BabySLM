@@ -1,9 +1,8 @@
 ## Download the Providence corpus
 
-The original dataset is available on [Phonebank](https://gin.g-node.org/EL1000/providence).
-However, a child-project version can be found [there](https://gin.g-node.org/EL1000/providence). 
+The original dataset is available on [Phonbank](https://phonbank.talkbank.org/access/Eng-NA/Providence.html).
+However, a child-project version can be found [there](https://gin.g-node.org/LAAC-LSCP/providence). 
 This is where we'll start from.
-You can gain access to the data following [these guidelines](https://gin.g-node.org/EL1000/EL1000).
 
 ## Required dependencies 
 
@@ -21,7 +20,7 @@ pip install -e .
 
 To force align the corpus, we'll need `abkhazia` whose installation instructions can be found [there](https://docs.cognitive-ml.fr/abkhazia/install.html).
 
-Tips for cluster users for abkhazia installation: 
+Tips for our cluster users for abkhazia installation: 
 - `gfortran` (required dependency) comes with `module load gcc`
 - `clang ++` (required dependency) comes with `module load llvm`
 
