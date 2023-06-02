@@ -8,13 +8,11 @@ Welcome to this repository where you'll find all you need to evaluate your langu
 1) the lexical level using a spot-the-word task (available in audio or phonetic form; see Table 1)
 2) the syntactic level using a grammatical acceptability judgment task (available in audio, phonetic or orthographic form; see Table 2)
 
-These behavioral probing tasks are based on probability assigned to a given stimuli, it's up to you to decide how you can extract a relevant probability from your model.
-
 # Getting started
 
 You'll probably want to start from there:
 
-- [How to download the data? How to evaluate my own model?](docs/evaluation.md)
+- [How to download the evaluation data? How to evaluate my own model?](docs/evaluation.md)
 
 # Examples of stimuli
 
