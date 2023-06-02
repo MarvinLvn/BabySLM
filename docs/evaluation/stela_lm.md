@@ -55,7 +55,7 @@ python scripts/compute_proba.py --input_path $QUANTIZED_INPUT \
 
 ```bash
 BABYSLM_PATH=<DATA_LOCATION>/babyslm
-PROB_PATH=babyslm_models/stela_audiobooks_1024h/lstm
+PROB_PATH=babyslm_models/stela_audiobooks_1024h/lstm/quantized/tmp
 OUTPUT_PATH=babyslm_models/stela_audiobooks_1024h/scores
 
 python scripts/metrics/compute_lexical.py -g $BABYSLM_PATH \

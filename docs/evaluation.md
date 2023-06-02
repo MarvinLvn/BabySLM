@@ -107,7 +107,6 @@ Might be helpful to check how we implemented this for [LSTM](scripts/compute_pro
 How to download the pre-trained models used in the paper and evaluate them:
 - [STELA (audio)](evaluation/stela_lm.md)
 - [LSTM (phones or words)](evaluation/text_lstm_lm.md)
-- [N-grams (phones or words)](evaluation/ngram_lm.md)
 - [BabyBERTa (words)](evaluation/babyberta_lm.md)
 
 

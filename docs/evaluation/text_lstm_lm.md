@@ -1,30 +1,48 @@
 # Evaluate LSTM language models (phones or words)
 
-Compute probabilities associated to each stimuli:
+### 1) Download pre-trained model
+
+Once you followed [the instructions](../evaluation.md) to download the evaluation dataset.
+You can download the pre-trained model used in the paper:
 
 ```bash
-MODEL=/path/to/lstm_text/phones/128h/00
-EVAL_SET=/path/to/child_zerospeech
-python scripts/compute_proba.py --input_path $EVAL_SET/lexical --model_path $MODEL/checkpoint_best.pt \
-    --mode [MODE] [OPTIONAL_FLAGS] --text 
+mkdir babyslm_models
+
+# LSTM trained on words (BPE) extracted from the Providence corpus
+wget https://cognitive-ml.fr/downloads/baby-slm/models/LSTM_words/lstm_providence_128h.zip -P babyslm_models
+unzip babyslm_models/lstm_providence_128h.zip -d babyslm_models
 ```
 
-where: 
-- [MODE] can be dev or test, depending on whether you want to evaluate the model on the development or the test set.
-- [OPTIONAL_FLAGS] can be `--phonemize` if you want to consider the phonetic transcription of the stimuli (for the syntactic task), it's not used for the lexical task that is always performed on the phonetic transcription of the stimuli.
-- [OPTIONAL_FLAGS] can be `--remove_word_spaces` if you want to remove word spaces in the stimuli (for instance, if you trained a phone-based LSTM without considering spaces as a token). No effect on the lexical task. 
-- `--text` is a flag that forces the script to use text stimuli - consider only one voice -. It is mandatory if you want to evaluate text-based models.
-The command works the same for evaluating on the syntactic task (you'll just have to replace each occurrence of lexical by syntactic in the above command).
+### 2) Evaluate it
 
-Compute score:
+Let us assume we want to evaluate the model on the syntactic task.
+
+1) Compute probabilities:
 
 ```bash
+BABYSLM_PATH=<DATA_LOCATION>/babyslm/syntactic
+LSTM_PATH=babyslm_models/lstm_providence_128h/checkpoint_best.pt
+DICT_PATH=babyslm_models/lstm_providence_128h
 
-python scripts/metrics/compute_lexical.py --output $MODEL/child_zerospeech/lexical --gold $EVAL_SET \
-    --predicted $MODEL/child_zerospeech/predicted_probabilities --kind <MODE> --is_text
+python scripts/compute_proba.py --input_path $BABYSLM_PATH --model_path $LSTM_PATH --dict_path $DICT_PATH \
+    --mode dev --text --bos_eos --bpe_encode
 ```
 
-where:
-- `--kind` is dev or test.
-- `--is_text` indicates if only one voice should be considered when computing the score (mandatory for text-based language models).
-- `--predicted` points the the folder containing either dev.txt (if --kind == dev) or test.txt (if --kind == test) containing the probabilities returned by the model
+Here, the flag `--bos_eos` indicates that beginning of sentences and end of sentences tokens should be used.
+
+The flag `--bpe_encode` indicates that input stimuli should be BPE encoded.
+
+2) Compute scores:
+
+```bash
+BABYSLM_PATH=<DATA_LOCATION>/babyslm
+PROB_PATH=babyslm_models/lstm_providence_128h/babyslm/tmp
+OUTPUT_PATH=babyslm_models/lstm_providence_128h/scores
+
+python scripts/metrics/compute_syntactic.py --gold $BABYSLM_PATH \
+    --predicted $PROB_PATH \
+    --output $OUTPUT_PATH \
+    --kind dev --is_text
+```
+
+You can check in `overall_accuracy_syntactic_dev.txt` that the model obtains a syntactic accuracy of 65.3% on the dev set.
