@@ -1,7 +1,6 @@
 ### Installation instructions to train and evaluate STELA models (CPC+K-means+LSTM)
 
-Assuming you're in the BabySLM folder. First, make sure [sox](http://sox.sourceforge.net/) is installed.
- is installed and then run:
+Assuming you're in the BabySLM folder. First, make sure [sox](http://sox.sourceforge.net/) is installed, and then run:
 
 ```bash
 # Install CPC + K-means dependencies
