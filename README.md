@@ -51,4 +51,49 @@ If you want to go further:
 
 # How to cite?
 
-WIP
+```text
+@inproceedings{lavechin2023baby,
+title={BabySLM: language-acquisition-friendly benchmark of self-supervised spoken language models},
+author={Lavechin, Marvin and Sy, Yaya and Titeux, Hadrien and Bland{\'o}n, Mar{\'\i}a Andrea Cruz and R{\"a}s{\"a}nen, Okko and Bredin, Herv{\'e} and Dupoux, Emmanuel and Cristia, Alejandrina},
+year={2023},
+booktitle = {Interspeech}
+}
+```
+
+Additionnally, if you BabyBERTa, please cite:
+
+```text
+@inproceedings{huebner2021babyberta,
+  title={BabyBERTa: Learning more grammar with small-scale child-directed language},
+  author={Huebner, Philip A and Sulem, Elior and Cynthia, Fisher and Roth, Dan},
+  booktitle={Proceedings of the 25th conference on computational natural language learning},
+  pages={624--646},
+  year={2021}
+}
+```
+
+If you use the Providence corpus, please cite:
+
+```text
+@inproceedings{borschinger2013joint,
+  title={A joint model of word segmentation and phonological variation for English word-final/t/-deletion},
+  author={B{\"o}rschinger, Benjamin and Johnson, Mark and Demuth, Katherine},
+  booktitle={Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={1508--1516},
+  year={2013}
+}
+```
+If you use the LibriVox corpus, please cite:
+
+```text
+@article{kearns2014librivox,
+  title={Librivox: Free public domain audiobooks},
+  author={Kearns, Jodi},
+  journal={Reference Reviews},
+  volume={28},
+  number={1},
+  pages={7--8},
+  year={2014},
+  publisher={Emerald Group Publishing Limited}
+}
+```
