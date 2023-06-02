@@ -60,7 +60,7 @@ booktitle = {Interspeech}
 }
 ```
 
-Additionnally, if you BabyBERTa, please cite:
+Additionnally, if you use BabyBERTa, please cite:
 
 ```text
 @inproceedings{huebner2021babyberta,
