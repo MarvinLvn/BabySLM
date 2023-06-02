@@ -45,7 +45,7 @@ Table 2: Minimal pairs of grammatical (✓)  and ungrammatical (✗) sentences u
 
 If you want to go further:
 
-- [How to evaluate the models used in the paper?](docs/evaluation/entry_point.md)
+- [How to download the pre-trained models used in the paper and evaluate them?](docs/evaluation/entry_point.md)
 - [How to retrain the models used in the paper?](docs/training.md)
 - [How to prepare the training sets used in the paper?](docs/data.md)
 - [How to recreate the lexical evaluation?](https://github.com/MarvinLvn/ChildDirectedLexicalTest)
