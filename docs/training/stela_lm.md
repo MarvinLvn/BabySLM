@@ -1,7 +1,6 @@
 # Train CPC + K-means + LSTM (speech-based)
 
-Audio-based models are trained using [this git repository](https://github.com/MarvinLvn/CPC2).
-Please follow the installation instructions [there](https://github.com/MarvinLvn/CPC2/blob/minibatch_building/docs/installation.md).
+Make sure you followed [the installation instructions](../installation/stela.md).
 
 ### 1) Train CPC
 
