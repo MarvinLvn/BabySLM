@@ -18,6 +18,8 @@ You'll probably want to start from there:
 
 # Examples of stimuli
 
+Stimuli examples can be listened to on [this web page](https://marvinlvn.github.io/projects/3_project/).
+
 <center>
 
 | Word   | Pseudo-word                                                 | Word   | Pseudo-word                                                 |
@@ -41,7 +43,6 @@ Table 1: Minimal pairs of real and pseudo-words used in the spot-the-word lexica
 Table 2: Minimal pairs of grammatical (✓)  and ungrammatical (✗) sentences used in the syntactic task.
 </center>
 
-Stimuli examples can be listened to on [this web page](https://marvinlvn.github.io/projects/3_project/).
 
 # Reproduce the BabySLM benchmark
 
