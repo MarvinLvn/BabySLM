@@ -18,7 +18,7 @@ wget https://cognitive-ml.fr/downloads/baby-slm/training_sets/LibriVox/English_L
 
 Alternatively, you can click on the following links to download the training sets:
 - [Providence (audio)](https://cognitive-ml.fr/downloads/baby-slm/training_sets/Providence/audio.zip), 13 GB
-- [Providence (phonemes)](https://cognitive-ml.fr/downloads/baby-slm/training_sets/Providence/phonemes.zip), 55 mb
+- [Providence (phonetic)](https://cognitive-ml.fr/downloads/baby-slm/training_sets/Providence/phonemes.zip), 55 mb
 - [Providence (orthographic)](https://cognitive-ml.fr/downloads/baby-slm/training_sets/Providence/sentences.zip), 53 MB
 - [Audiobooks (audio)](https://cognitive-ml.fr/downloads/baby-slm/training_sets/LibriVox/English_LibriVox_extracted_full_random.zip), 90 GB
 
