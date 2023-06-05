@@ -1,4 +1,4 @@
-<p align="center" width="20%">
+<p align="center" width="25%">
 <img src="./docs/images/babyslm_logo.png"> 
 </p>
 
