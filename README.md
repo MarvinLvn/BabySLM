@@ -2,7 +2,7 @@
 <img src="./docs/images/babyslm_logo.png"> 
 </p>
 
-# BabySLM: language-acquisition-friendly benchmark of self-supervised spoken language models
+# BabySLM: language-acquisition-friendly benchmark of self-supervised spoken language models [[paper link](https://arxiv.org/abs/2306.01506)]
 
 Welcome to this repository where you'll find all you need to evaluate your language model at:
 1) the lexical level using a spot-the-word task (available in audio or phonetic form; see Table 1)
@@ -13,6 +13,8 @@ Welcome to this repository where you'll find all you need to evaluate your langu
 You'll probably want to start from there:
 
 - [How to download the evaluation data? How to evaluate my own model?](docs/evaluation.md)
+- [How to download the training sets?](docs/training_sets.md)
+
 
 # Examples of stimuli
 
@@ -38,6 +40,8 @@ Table 1: Minimal pairs of real and pseudo-words used in the spot-the-word lexica
 
 Table 2: Minimal pairs of grammatical (✓)  and ungrammatical (✗) sentences used in the syntactic task.
 </center>
+
+Stimuli examples can be listened to on [this web page](https://marvinlvn.github.io/projects/3_project/).
 
 # Reproduce the BabySLM benchmark
 
