@@ -13,7 +13,7 @@ If you want to prepare the Providence corpus, you must install this conda env:
 conda env create -f data_prep.yml
 conda activate provi
 # Install paraphone: used to phonemized sentences
-git clone ssh://git@gitlab.cognitive-ml.fr:1022/mlavechin/paraphone.git
+git clone https://github.com/MarvinLvn/paraphone.git
 cd paraphone
 pip install -e .
 ``````
